@@ -6,8 +6,8 @@ author = "YBG"
 date = "2015-11-27T16:27:35+03:00"
 menu = "main"
 title = "Internet's Outer Space"
-bannerinline = "/images/pgravity.jpg"
-bannerheight = "500"
+bannerinline = "/images/bubbles_in_bubbles.jpg"
+bannerfill = false
 +++
 
 # Internet’s Outer Space, the Next Frontier

@@ -16,7 +16,7 @@ My name is Yitzhak Bar Geva and this is my blog.
 
 ### Colophon
 
-This blog was originally written by [Prakhar Srivastav](http://prakhar.me/) in [Vim](https://github.com/prakhar1989/dotfiles) and compiled into HTML using [Hugo](http://gohugo.io) - a static site generator in [Go](https://golang.org/). For the design, it uses the excellent minimalistic CSS framework called [Skeleton](http://getskeleton.com). 
+This blog is built with the [Hugo](http://gohugo.io) static site generator using [Tom Maiaroto's](https://github.com/tmaiaroto) [hugo-redlounge](https://github.com/tmaiaroto/hugo-redlounge/) theme.
 
 Beautiful [icons](http://ionicons.com/) on the site are courtesy of the team behind the awesome [Ionic Framework](http://ionicframework.com/).  For typography, it uses the [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro) open sourced by Adobe. Sans-serif goodness is provided by [Raleway](https://github.com/theleagueof/raleway). 
 
