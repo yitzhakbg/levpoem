@@ -1,0 +1,14 @@
+	  body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+	.two-column {
+	column-count:3;
+}
+    .left-column {
+     width: 45%;
+     float: left;
+}
+	.right-column {
+	width: 45%
+	float: right;
+}
