@@ -1,7 +1,7 @@
 +++
 Description = ""
-Tags = ["Geula", "nowall"]
-Categories = ["Personal", "Upswing","Philo"]
+Tags = ["networking"]
+Categories = ["Networking"]
 menu = "main"
 author = "YBG"
 +++
