@@ -5,37 +5,19 @@ nodate = true
 nocomment = true
 +++
 
-My name is Yitzhak Bar Geva and this is my blog. 
+### Yitzhak Bar Geva
 
-<p>Contact me at <a href="mailto:yitzhakbargeva@gmail.com">email</a>
+ I've been a non-conforming adventurer from my earliest days in the U.S. I tinkered with vacuum tubes and antennas back in the 1950's while the kids on the block played ball. My passion for computing began in 1966 and has never waned. I made Aliyah (literally _Going up_) to Israel at age 21 to become a combat soldier, a settler and raise an incredible family, involved in software throughout.
+
+### Contact
+
+<p>I can be contacted by email at <a href="mailto:yitzhakbargeva@gmail.com">yitzhakbargeva [at] gmail [dot] com</a>
 <h1 class="social-me">
-  <a title="Github" href="http://github.com/yitzhakbg"><i class="ion-social-octocat"></i></a> 
-  <a title="Twitter" href="https://twitter.com/yitzhakbg"><i class="ion-social-twitter"></i></a> 
-  <a title="LinkedIn" href="https://www.linkedin.com/in/yitzhakbg"><i class="ion-social-linkedin-outline"></i></a> 
+  <a title="Github" href="http://github.com/yitzhakbg"><i class="ion-social-octocat"></i></a>
+  <a title="Twitter" href="https://twitter.com/yitzhakbg"><i class="ion-social-twitter"></i></a>
+  <a title="LinkedIn" href="https://www.linkedin.com/in/yitzhakbg"><i class="ion-social-linkedin-outline"></i></a>
 </h1></p>
 
 ### Colophon
 
-This blog is built with the [Hugo](http://gohugo.io) static site generator using [Tom Maiaroto's](https://github.com/tmaiaroto) [hugo-redlounge](https://github.com/tmaiaroto/hugo-redlounge/) theme.
-
-Beautiful [icons](http://ionicons.com/) on the site are courtesy of the team behind the awesome [Ionic Framework](http://ionicframework.com/).  For typography, it uses the [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro) open sourced by Adobe. Sans-serif goodness is provided by [Raleway](https://github.com/theleagueof/raleway). 
-
-Prakhar's code is [available at](https://github.com/prakhar1989/hugo-blog).
-
-### Subscribe
-
-Subscribe here.
-
-<div id="mc_embed_signup">
-<form action="//yitzhakbg.us8.list-manage.com/subscribe/post?u=46da35e130c3a9xxxe4a5e631&amp;id=608cxxx1fc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_46da35e130c3a9ab7e4a5e631_608c6bc1fc" tabindex="-1" value=""></div>
-    <input type="submit" class="button button-primary" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
+This blog is built with the [Hugo](http://gohugo.io) static site generator using Tom Maiaroto's [hugo-redlounge](https://github.com/tmaiaroto/hugo-redlounge/) theme. [Icons](http://ionicons.com/) are from the [Ionic Framework](http://ionicframework.com/).  It uses Adobe's open sourced [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro) and sans-serif by [Raleway](https://github.com/theleagueof/raleway). Both Hugo which renders the blog and the [Caddy user-space web server](https://caddyserver.com/) are run in [Docker](https://www.docker.com/) containers.
