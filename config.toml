@@ -26,9 +26,8 @@ canonifyurls = true
   sidebartitle = "YBG"
   sidebartagline = "View from inside"
   pygmentsUseClasses = true
-  banner = "images/celestial-neighbors-323444.png"
+  banner = "images/celestial-neighbors-323444.jpg"
   bannerfill = true
-  bannerheight = 400
   totop = true
 
 [permalinks]
@@ -39,8 +38,8 @@ canonifyurls = true
     URL = "/about"
 
 [[menu.main]]
-    name = "Blog"
-    URL = "/articles"
+    name = "Tech Blog"
+    URL = "/tech"
 
 [[menu.social]]
     pre = "<i class='fa fa-twitter'></i>"
@@ -59,5 +58,5 @@ canonifyurls = true
 
 [[menu.footer]]
     name = "Blog"
-    URL = "/articles"
+    URL = "/article"
 
