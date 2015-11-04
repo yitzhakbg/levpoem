@@ -1,16 +1,4 @@
-+++
-Categories = ["Networking"]
-Description = ""
-Tags = ["networking"]
-author = "YBG"
-date = "2015-11-03T14:52:11-05:00"
-menu = "main"
-title = "slides"
 
-+++
-# 
-
----
 
 # Introduction
 D2D in 5G cellular can turn mobile/wireless device clusters into the next generation application platform.
@@ -22,7 +10,7 @@ The widely used RDMA clustering model with verbs programming has been a standard
 ---
 
 # 5G standards must take a close look at RDMA networking, particularly D2D to avoid IP lockin.
-RDMA is faster, more efficient. Zero-copy and lower cpu usage in the (extremely slim) 
+RDMA is faster, more efficient. Zero-copy and lower cpu usage in the (extremely slim)
 
 RDMA network stack are more important in the mobile environment.
 
@@ -32,12 +20,14 @@ Furthermore, it lends naturally to clustering, user programmable networking.
 
 # Computing Platform Evolution
 
-## Each Wave Dwarfs its Predecessor 
+## Each Wave Dwarfs its Predecessor
 
 ---
 
 # The key thing here is the Platform
-![Default-aligned image](Images/key_lock_image.jpg)
+
+![Default-aligned image](/images/key_lock_image.jpg)
+
 ---
 
 # Platform Evolution
@@ -75,7 +65,7 @@ Order of magnitude more clusters than devices
 
 ---
 
-# 
+#
 
 ---
 
@@ -83,35 +73,35 @@ Order of magnitude more clusters than devices
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ???
 
@@ -123,23 +113,23 @@ Note: InfiniBand transport in h/w (on the NIC)
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
@@ -151,7 +141,7 @@ High speed communications link for data flow between processors and I/O devices 
 
 ---
 
-# 
+#
 
 ???
 
@@ -159,27 +149,27 @@ InfiBand is evolving, becoming more efficient, utilizing hardware advancements
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
@@ -187,7 +177,7 @@ InfiBand is evolving, becoming more efficient, utilizing hardware advancements
 
 ---
 
-# 
+#
 
 ---
 
@@ -205,11 +195,11 @@ Not what we want. The ULP route is not programable.
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ???
 
@@ -221,7 +211,7 @@ Following the previous slide, the left hand side shows applications interfaced t
 
 ---
 
-# 
+#
 
 ---
 
@@ -245,11 +235,11 @@ Here’s a fine example of what we’re striving for languages and services over
 
 ---
 
-# 
+#
 
 ---
 
-# 
+#
 
 ---
 
@@ -307,7 +297,7 @@ Ran on only one type of machine
 
 ---
 
-# 
+#
 
 - On-the-fly clustering of mobile devices
 
@@ -329,7 +319,7 @@ Ran on only one type of machine
 
 ---
 
-# 
+#
 
 - Lacking external switching devices, switching and routing have to be done by the devices themselves.
 
@@ -352,6 +342,3 @@ Ran on only one type of machine
 --
 
 - etc., etc….
-
-
-

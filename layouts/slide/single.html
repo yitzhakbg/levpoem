@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partial "slide/header.html" . }}
 <body>
 	{{ if .Params.totop }}
 		<div id="nav-to-top">
@@ -6,9 +6,11 @@
 		</div>
 	{{ end }}
 
+  {{ if not .Params.slides }}
 	<div id="layout" class="pure-g">
     {{ partial "sidebar.html" . }}
-	
+  {{ end }}
+
 	{{ if .Params.banner }}
 	<div class="content-banner-image pure-u-1 pure-u-md-3-4" style="{{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}">
 		<img src="{{ .Params.banner }}" class="pure-img" style="{{ if .Params.bannerfill }}width: 100%;{{ end }}" />
@@ -27,6 +29,7 @@
 		    </div>
 		    {{ end }}
 	    {{ end }}
+      {{ if not .Params.slides }}
   		<section class="post">
             <h1 class="post-title">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -45,6 +48,7 @@
             		{{ partial "authorsocial.html" . }}
             	{{ end }}
             {{ end }}
+      {{ end }}
 
 			{{ $Site := .Site }}
 			{{ if .Params.categories }}
@@ -65,8 +69,15 @@
                                             {{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}" />
 			{{ end }}
 
-            {{ .Content }}
-	
+<textarea id="source">
+
+    {{ if .Params.slides }}
+      {{ partial "slide/wrdmacontent.md" }}
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+</textarea>
+
 			{{ if .Params.socialsharing }}
 		    	{{ partial "socialsharing.html" . }}
 		    {{ end }}
@@ -102,8 +113,10 @@
           {{ if not .Params.nocomment }}
           	{{ template "_internal/disqus.html" . }}
           {{ end }}
-        
-      {{ partial "footer.html" . }}
+
+          {{ if not .Params.nofooter }}
+             {{ partial "footer.html" . }}
+          {{ end }}
     </div>
   </div>
 	{{ if .Params.totop }}
@@ -134,5 +147,7 @@
 	{{ end }}
 
   {{ partial "bodyend.html" . }}
+
+
 </body>
 </html>
