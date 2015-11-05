@@ -1,0 +1,174 @@
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+.remark-slide {
+  background: #ffffff;
+  background-image: repeating-linear-gradient(to left,     hsla(0, 0%, 100%,   0) 0%, hsla(0, 0%, 100%,   0)   6%, hsla(0, 0%, 100%,  .1) 7.5%),
+                    repeating-linear-gradient(to top left, hsla(0, 0%,  75%,   0) 0%, hsla(0, 0%,  75%,   0)   4%, hsla(0, 0%,  75%, .03) 4.5%),
+                    repeating-linear-gradient(to top left, hsla(0, 0%, 100%,   0) 0%, hsla(0, 0%, 100%,   0) 1.2%, hsla(0, 0%, 100%, .15) 2.2%),
+                              linear-gradient(180deg,      hsla(0, 0%,  95%, .92) 0%, hsla(0, 0%,  98%, .98)   8%, hsla(0, 0%,  98%, .98)   92%, hsla(0, 0%, 95%, 0.92) 100%),
+                    radial-gradient(circle at center, red, blue);
+}
+
+img {
+  width: 100%;
+}
+
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+        -webkit-margin-before: 0px;
+      }
+      .remark-slide-content h1 { font-size: 3em; margin-bottom: 5em; }
+      .remark-slide-content h2 { font-size: 2em; margin-bottom: 5em; }
+      .remark-slide-content h3 { font-size: 1.6em; margin-bottom: 0px; font-weight: 600; }
+      .remark-slide-content {
+        padding-left: 16em;
+        padding-right: 16em;
+        font-size: 1.44em;
+        background-color: transparent;
+}
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+        font-size: 6em;
+        left: 5em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 1.25em;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .hide-remark-source {
+  visibility: hidden;
+}
+
+.large {
+  font-size: 2em;
+}
+
+/* Special CSS for template inverse */
+.inverse {
+  background: linear-gradient(to bottom, rgba(46, 38, 28, 0.95) 0%, rgba(59, 48, 35, 0.95) 50%, rgba(59, 48, 35, 0.95) 54%, rgba(39, 40, 34, 0.95) 71%, rgba(39, 40, 34, 0.95) 100%),
+              radial-gradient(farthest-side ellipse at top left, red, blue);
+  color: #d9e0b1;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+/* Animation */
+/*
+ * Disabled because it's annoying. What I want is really landslide animation!
+ * Example: https://maruel.net/landslide/maruel_git.html
+ *
+.remark-fading {
+  z-index: 9;
+}
+.remark-slide-container {
+  transition: opacity 0.3s linear, right 0.3s ease-in-out;
+  opacity: 0;
+  right: 1000px;
+}
+.remark-visible {
+  transition: opacity 0.3s linear, right 0.3s ease-in-out;
+  opacity: 1;
+  right: 0px;
+}
+.remark-visible ~ .remark-slide-container {
+  right: -1000px;
+}
+*/
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+/*      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }*/
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
