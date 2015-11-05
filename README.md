@@ -10,6 +10,7 @@ Incorporated for slide presentations. A tad unwieldy at the moment since hugo pr
 ### [Docker](https://www.docker.com/)
 
 Two Docker containers: docker-hugo pulls in the latest hugo and builds the site with watching on but no server.  
+**docker-compose build** builds the containers. **docker-compose up -d** deploys.  
 
 ### Caddy
 docker-caddy serves the site from a volume mapped to the hugo-rendered site. Caddy serves to port 80 in user mode.  
