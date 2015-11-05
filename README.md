@@ -12,6 +12,6 @@ Incorporated for slide presentations. A tad unwieldy at the moment since hugo pr
 Two Docker containers: docker-hugo pulls in the latest hugo and builds the site with watching on but no server.  
 **docker-compose build** builds the containers. **docker-compose up -d** deploys.  
 
-### Caddy
+### [Caddy](https://caddyserver.com/)
 docker-caddy serves the site from a volume mapped to the hugo-rendered site. Caddy serves to port 80 in user mode.  
 See: [Do I have to run Caddy as root to serve on port 80 or 443?](https://caddyserver.com/docs/faq)
