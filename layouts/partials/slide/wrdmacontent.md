@@ -1,4 +1,15 @@
+name: inverse
+layout: true
+class: center, middle, inverse
 
+---
+
+name: normal
+layout: true
+
+---
+
+<!-- template: inverse -->
 
 # Introduction
 D2D in 5G cellular can turn mobile/wireless device clusters into the next generation application platform.
@@ -65,47 +76,11 @@ Order of magnitude more clusters than devices
 
 ---
 
-#
-
----
-
 # Powerful over and beyond sheer horsepower
 
 ---
 
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
-???
-
-Note: InfiniBand transport in h/w (on the NIC)
+# Note: InfiniBand transport in h/w (on the NIC)
 
 ---
 
@@ -113,71 +88,17 @@ Note: InfiniBand transport in h/w (on the NIC)
 
 ---
 
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
 # InfiniBand
-
-???
 
 High speed communications link for data flow between processors and I/O devices with support for up to 64,000 addressable devices. Scalable, supports quality of service (QoS) and failover. Widely used as a server connect in HPC environments. InfiniBand is at the core of this presentation. Familiarity with IB is assumed.
 
 ---
 
-#
-
-???
-
 InfiBand is evolving, becoming more efficient, utilizing hardware advancements
 
 ---
 
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
-#
-
----
-
 # iWARP - Internet Wide Area RDMA Protocol
-
----
-
-#
 
 ---
 
@@ -195,23 +116,11 @@ Not what we want. The ULP route is not programable.
 
 ---
 
-#
-
----
-
-#
-
-???
-
 Following the previous slide, the left hand side shows applications interfaced through APIs to Upper Layer Protocols (ULPs) to legacy service emulation. Not Programmable!
 
 ---
 
 # Programmability with RDMA verbs (or newer PSM)
-
----
-
-#
 
 ---
 
@@ -232,14 +141,6 @@ Here’s a fine example of what we’re striving for languages and services over
 ---
 
 # Custom Networking Schemes
-
----
-
-#
-
----
-
-#
 
 ---
 
@@ -297,8 +198,6 @@ Ran on only one type of machine
 
 ---
 
-#
-
 - On-the-fly clustering of mobile devices
 
 --
@@ -318,8 +217,6 @@ Ran on only one type of machine
 -  Networking Meta Language or DSL over RDMA verbs
 
 ---
-
-#
 
 - Lacking external switching devices, switching and routing have to be done by the devices themselves.
 
