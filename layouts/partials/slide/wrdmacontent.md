@@ -1,6 +1,25 @@
+
+name: Disruptions
+
+### Concentric Technology Bubbles
+> The history of technology is a history of unintended consequences, of revolutions that never happened, and of unforeseen disruptions.
+
+![Bubbles in Bubbles](/images/bubbles_in_bubbles.jpg)
+
+.footnote[Smart Things: Ubiquitous Computing User Experience Design, Mike Kuniavsky [Amazon](http://www.amazon.com/exec/obidos/ASIN/0123748992/orangecone-20)]
+???
+This may seem nadosh at the outset. Bear with me for a moment so we can get into the proper mindset
+---
+name: ExplodingInternet1
+ [The growth rate of the Internet](http://www.livinginternet.com/i/ip_growth.htm) exceeds that of any previous technology... Today, the Internet is growing exponentially in three different directions -- size, processing power, and software sophistication -- making it the fastest growing technology humankind has ever created
+
+.right[![Internet of Things Growth](/images/internetofthingsgrowth.png)]
+.left[![IOT Growth](/images/Growth-Global-Mobile-Internet-Google-ex1_inline_tcm80-181547.png)]
+---
+
 name: inverse
 layout: true
-class: center, middle, inverse
+class: center], middle, inverse
 
 ---
 
@@ -8,7 +27,54 @@ name: normal
 layout: true
 
 ---
+name: Except4
+## Except for one thing...
 
+--
+## We've seen this before
+
+<div class="embed video-player">
+<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/n1mpgOQmFCA?version=3&rel=0&autoplay=1&controls=0" allowfullscreen frameborder="0">
+</iframe>
+</div>
+
+---
+# Quotations
+> [It’s astonishing to think](http://www.kotaku.co.uk/2015/10/19/the-1980s-game-that-predicted-the-internet) how much of the world has changed thanks to the Internet. It’s difficult to think of another recent technology that has so totally changed how people experience the world - the invention of the telephone well over 100 years ago is probably the only thing that comes close... But the swiftness and ubiquity of the revolution means that it can be difficult to imagine a time before the Internet existed, a time when computers were mostly limited to offices and files were stored on floppy disk.
+
+--
+
+> We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
+(One classic example: When it became clear that Apple was working on an “iPhone,” almost all the speculation involved something that was either a lot like an iPod, or a lot like other phones of the time. As far as I know, nobody expected anything remotely like the epoch-shifting device Apple released.)
+
+--
+
+> [We techies should be more honest](http://learn.org/articles/Looking_Back_to_the_Future_Past_Predictions_About_the_Internet.html) about what computers can do and what they cannot do, or else we are setting ourselves up for a big pie in the face.'
+
+-Clifford Stoll, 1995
+
+---
+> # "There is no reason for any individual to have a computer in his home."
+
+
+
+![Ken Olson](/images/KenOlson.png)
+.footnote[[Ken Olsen](http://www.snopes.com/quotes/kenolsen.asp), founder and CEO of Digital Equipment Corporation,
+1977
+]
+---
+
+
+---
+<!-- <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.il/books?id=FDoEAAAAMBAJ&lpg=PA36&ots=89cydPBpPy&dq=predictions%20the%20internet%20web%201980&pg=PA36&output=embed" width=500 height=500></iframe>
+ -->
+
+### Bob Metcalfe [InfoWorld Dec 23-30, 1996](https://books.google.co.il/books?id=FDoEAAAAMBAJ&pg=PA36&lpg=PA36&dq=predictions+the+internet+web+1980&source=bl&ots=89cydPBpPy&sig=UUkw-DwV1UptDVj5q3iOrqqLzzM&hl=en&sa=X&ved=0CD8Q6AEwB2oVChMInMKzmIeEyQIVwYUPCh1ITg8y#v=onepage&q=predictions%20the%20internet%20web%201980&f=true)
+![InfoWorld Dec 23-30, 1996](/images/Metcalfe.png)
+
+---
+
+---
 <!-- template: inverse -->
 
 # Introduction
@@ -37,7 +103,7 @@ Furthermore, it lends naturally to clustering, user programmable networking.
 
 # The key thing here is the Platform
 
-![Default-aligned image](/images/key_lock_image.jpg)
+![key in lock](/images/key_lock_image.jpg)
 
 ---
 
@@ -67,8 +133,19 @@ Furthermore, it lends naturally to clustering, user programmable networking.
 
 --
 
-- Voilà.
+---
+# Quest for the Future Internet Architecture
+--
 
+# Why the __the__ ?
+--
+
+> Why not an unlimited number of Internet architectures, all cohabiting harmoniously ?
+---
+# Think about it for a moment to let it sink in
+--
+
+# Why should there be only one (or a very few) Internet architectures ?
 ---
 
 # Vastly wider Application Space
