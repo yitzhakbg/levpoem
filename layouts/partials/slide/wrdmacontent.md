@@ -1,49 +1,112 @@
+<!-- class: center, middle, inverse
+## What is it and why should I be using it?
+---
+layout: false
+.left-column[
+  ## What is it?
+]
+.right-column[
+  A simple, in-browser, Markdown-driven slideshow tool targeted at people who know their way around HTML and CSS, featuring:
 
-name: Disruptions
+- Markdown formatting, with smart extensions
 
-### Concentric Technology Bubbles
-> The history of technology is a history of unintended consequences, of revolutions that never happened, and of unforeseen disruptions.
+- Presenter mode, with cloned slideshow view
 
-![Bubbles in Bubbles](/images/bubbles_in_bubbles.jpg)
+- Syntax highlighting, supporting a range of languages
 
-.footnote[Smart Things: Ubiquitous Computing User Experience Design, Mike Kuniavsky [Amazon](http://www.amazon.com/exec/obidos/ASIN/0123748992/orangecone-20)]
-???
-This may seem nadosh at the outset. Bear with me for a moment so we can get into the proper mindset
+- Slide scaling, thus similar appearance on all devices / resolutions .red[*]
+
+- Touch support for smart phones and pads, i.e. swipe to navigate slides
+
+.footnote[.red[*] At least browsers try their best]
+]
+---
+.left-column[
+  ## What is it?
+  ## Why use it?
+]
+.right-column[
+If your ideal slideshow creation workflow contains any of the following steps:
+
+- Just write what's on your mind
+
+- Do some basic styling
+
+- Easily collaborate with others
+
+- Share with and show to everyone
+
+Then remark might be perfect for your next.red[*] slideshow!
+
+.footnote[.red[*] You probably want to convert existing slideshows as well]
+]
+---
+.left-column[
+  ## What is it?
+  ## Why use it?
+]
+.right-column[
+As the slideshow is expressed using Markdown, you may:
+
+- Focus on the content, expressing yourself in next to plain text not worrying what flashy graphics and disturbing effects to put where
+
+As the slideshow is actually an HTML document, you may:
+
+- Display it in any decent browser
+
+- Style it using regular CSS, just like any other HTML content
+
+- Use it offline!
+
+As the slideshow is contained in a plain file, you may:
+
+- Store it wherever you like; on your computer, hosted from your Dropbox, hosted on Github Pages alongside the stuff you're presenting...
+
+- Easily collaborate with others, keeping track of changes using your favourite SCM tool, like Git or Mercurial
+]
+--- -->
+class: center, middle, main-title
+# Disrupting the Internet
+### Yitzhak Bar Geva, Prof. Jon Crowcroft
+## November 2015
+
 ---
 name: ExplodingInternet1
- [The growth rate of the Internet](http://www.livinginternet.com/i/ip_growth.htm) exceeds that of any previous technology... Today, the Internet is growing exponentially in three different directions -- size, processing power, and software sophistication -- making it the fastest growing technology humankind has ever created
+class: middle
+ #### [The growth rate of the Internet](http://www.livinginternet.com/i/ip_growth.htm) exceeds that of any previous technology...
 
-.right[![Internet of Things Growth](/images/internetofthingsgrowth.png)]
-.left[![IOT Growth](/images/Growth-Global-Mobile-Internet-Google-ex1_inline_tcm80-181547.png)]
+ Today, the Internet is growing exponentially in three different directions -- size, processing power, and software sophistication -- making it the fastest growing technology humankind has ever created
+
+![:scale 105%](/images/internetofthingsgrowth.png)
 ---
+> # .center[[Mobile](http://www.kotaku.co.uk/2015/10/19/the-1980s-game-that-predicted-the-internet) Catapults the Internet]
 
-name: inverse
-layout: true
-class: center], middle, inverse
+<!-- .left-column[The **swiftness** and **ubiquity** of the revolution makes it difficult to imagine a time before the Internet existed.] -->
 
----
-
-name: normal
-layout: true
-
+.center[![:scale 80%](/images/Growth-Global-Mobile-Internet-Google-ex1_inline_tcm80-181547.png)]
 ---
 name: Except4
 ## Except for one thing...
 
 --
-## We've seen this before
-
-<div class="embed video-player">
-<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/n1mpgOQmFCA?version=3&rel=0&autoplay=1&controls=0" allowfullscreen frameborder="0">
-</iframe>
-</div>
-
----
-# Quotations
-> [It’s astonishing to think](http://www.kotaku.co.uk/2015/10/19/the-1980s-game-that-predicted-the-internet) how much of the world has changed thanks to the Internet. It’s difficult to think of another recent technology that has so totally changed how people experience the world - the invention of the telephone well over 100 years ago is probably the only thing that comes close... But the swiftness and ubiquity of the revolution means that it can be difficult to imagine a time before the Internet existed, a time when computers were mostly limited to offices and files were stored on floppy disk.
+### We've been here before. It's a rerun.
 
 --
 
+<div class="embed video-player">
+<iframe width="560" height="315" src="https://www.youtube.com/v/n1mpgOQmFCA?list=PL1ACKARftyBDLK67SIj6cba5uk24fE-ff&rel=0&autoplay=1&controls=0&fs=0&loop=1&modestbranding=1&showinfo=0" frameborder="0"></iframe>
+</div>
+---
+name: Disruptions
+
+### Concentric Technology Bubbles
+> The history of technology is a history of unintended consequences, of revolutions that never happened, and of unforeseen disruptions.
+
+![:scale 70%](/images/bubbles_in_bubbles.jpg)
+
+.footnote[Smart Things: Ubiquitous Computing User Experience Design, Mike Kuniavsky [Amazon](http://www.amazon.com/exec/obidos/ASIN/0123748992/orangecone-20)]
+
+---
 > We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
 (One classic example: When it became clear that Apple was working on an “iPhone,” almost all the speculation involved something that was either a lot like an iPod, or a lot like other phones of the time. As far as I know, nobody expected anything remotely like the epoch-shifting device Apple released.)
 
@@ -54,26 +117,22 @@ name: Except4
 -Clifford Stoll, 1995
 
 ---
-> # "There is no reason for any individual to have a computer in his home."
-
-
-
-![Ken Olson](/images/KenOlson.png)
+#### Ken Olson (whom Bill Gates had idolized as a teenager), had been debunking the PC since 1977, when he told a convention of the World Future Society,
 .footnote[[Ken Olsen](http://www.snopes.com/quotes/kenolsen.asp), founder and CEO of Digital Equipment Corporation,
-1977
-]
+	1977]
+--
+
+# "There is no reason for any individual to have a computer in his home."
+
+--
+
+#### Olson's mistake was in binding the platform with what could be done with it. We never have an inkling. Take smartphones for example.
 ---
+	<!-- <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.il/books?id=FDoEAAAAMBAJ&lpg=PA36&ots=89cydPBpPy&dq=predictions%20the%20internet%20web%201980&pg=PA36&output=embed" width=500 height=500></iframe>
+	 -->
 
-
----
-<!-- <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.il/books?id=FDoEAAAAMBAJ&lpg=PA36&ots=89cydPBpPy&dq=predictions%20the%20internet%20web%201980&pg=PA36&output=embed" width=500 height=500></iframe>
- -->
-
+.left[![:scale 105%](/images/Metcalfe.png)]
 ### Bob Metcalfe [InfoWorld Dec 23-30, 1996](https://books.google.co.il/books?id=FDoEAAAAMBAJ&pg=PA36&lpg=PA36&dq=predictions+the+internet+web+1980&source=bl&ots=89cydPBpPy&sig=UUkw-DwV1UptDVj5q3iOrqqLzzM&hl=en&sa=X&ved=0CD8Q6AEwB2oVChMInMKzmIeEyQIVwYUPCh1ITg8y#v=onepage&q=predictions%20the%20internet%20web%201980&f=true)
-![InfoWorld Dec 23-30, 1996](/images/Metcalfe.png)
-
----
-
 ---
 <!-- template: inverse -->
 
@@ -101,9 +160,9 @@ Furthermore, it lends naturally to clustering, user programmable networking.
 
 ---
 
-# The key thing here is the Platform
+# .center[The key thing here is the Platform]
 
-![key in lock](/images/key_lock_image.jpg)
+![:scale 100%](/images/key_lock_image.jpg)
 
 ---
 
