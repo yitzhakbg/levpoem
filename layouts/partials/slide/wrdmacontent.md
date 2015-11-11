@@ -64,47 +64,86 @@ As the slideshow is contained in a plain file, you may:
 
 - Easily collaborate with others, keeping track of changes using your favourite SCM tool, like Git or Mercurial
 ]
+
 --- -->
-class: center, middle, main-title
+
+class: center, middle, main-title, inverse
 # Disrupting the Internet
+## Wireless RDMA on D2D Mobile Devices
+
 ### Yitzhak Bar Geva, Prof. Jon Crowcroft
-## November 2015
+### November 2015
 
 ---
+
 name: ExplodingInternet1
 class: middle
- #### [The growth rate of the Internet](http://www.livinginternet.com/i/ip_growth.htm) exceeds that of any previous technology...
-
- Today, the Internet is growing exponentially in three different directions -- size, processing power, and software sophistication -- making it the fastest growing technology humankind has ever created
-
+ # [The growth rate of the Internet](http://www.livinginternet.com/i/ip_growth.htm) <br/> exceeds that of any previous technology...
 ![:scale 105%](/images/internetofthingsgrowth.png)
----
-> # .center[[Mobile](http://www.kotaku.co.uk/2015/10/19/the-1980s-game-that-predicted-the-internet) Catapults the Internet]
+--
+ 
+ #### The Internet is growing exponentially in three different directions -- size, processing power, and software sophistication -- making it the fastest growing technology humankind has ever created
 
-<!-- .left-column[The **swiftness** and **ubiquity** of the revolution makes it difficult to imagine a time before the Internet existed.] -->
-
-.center[![:scale 80%](/images/Growth-Global-Mobile-Internet-Google-ex1_inline_tcm80-181547.png)]
 ---
+
 name: Except4
-## Except for one thing...
-
+# All the superlatives are true
 --
-### We've been here before. It's a rerun.
-
+ except that...
 --
 
+# .left-column[This is a rerun.]
 <div class="embed video-player">
 <iframe width="560" height="315" src="https://www.youtube.com/v/n1mpgOQmFCA?list=PL1ACKARftyBDLK67SIj6cba5uk24fE-ff&rel=0&autoplay=1&controls=0&fs=0&loop=1&modestbranding=1&showinfo=0" frameborder="0"></iframe>
 </div>
+
+# .center[We've been there before]
+
 ---
-name: Disruptions
 
-### Concentric Technology Bubbles
-> The history of technology is a history of unintended consequences, of revolutions that never happened, and of unforeseen disruptions.
+name: NotTheFirst
+class: center
+# This isn't the first disruption
+.left-column[
+  ## Personal Computers
+]
+.right-column[
+	![:scale 100%](/images/MainframesDisrupted.jpg)
+]
 
-![:scale 70%](/images/bubbles_in_bubbles.jpg)
+---
 
-.footnote[Smart Things: Ubiquitous Computing User Experience Design, Mike Kuniavsky [Amazon](http://www.amazon.com/exec/obidos/ASIN/0123748992/orangecone-20)]
+name: NotTheFirst2
+class: center
+# This isn't the first disruption
+.left-column[
+  ## Personal Computers
+  ## Internet
+]
+.right-column[
+	![:scale 105%](/images/Disruption.png)
+]
+
+---
+
+name: NotTheFirst3
+class: center
+# This isn't the first disruption
+.left-column[
+  ## Personal Computers
+  ## Internet
+  ## Mobile
+]
+.right-column[
+	![:scale 100%](/images/Growth-Global-Mobile-Internet-Google-ex1_inline_tcm80-181547.png))
+]
+
+---
+
+name: Bubbles
+class: center
+# Concentric Technology Bubbles <br/> Each wave envelopes its predecessors
+![:scale 90%](/images/bubbles_in_bubbles.jpg)
 
 ---
 > We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
@@ -117,9 +156,11 @@ name: Disruptions
 -Clifford Stoll, 1995
 
 ---
+
 #### Ken Olson (whom Bill Gates had idolized as a teenager), had been debunking the PC since 1977, when he told a convention of the World Future Society,
 .footnote[[Ken Olsen](http://www.snopes.com/quotes/kenolsen.asp), founder and CEO of Digital Equipment Corporation,
 	1977]
+
 --
 
 # "There is no reason for any individual to have a computer in his home."
@@ -127,13 +168,16 @@ name: Disruptions
 --
 
 #### Olson's mistake was in binding the platform with what could be done with it. We never have an inkling. Take smartphones for example.
+
 ---
 	<!-- <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.il/books?id=FDoEAAAAMBAJ&lpg=PA36&ots=89cydPBpPy&dq=predictions%20the%20internet%20web%201980&pg=PA36&output=embed" width=500 height=500></iframe>
 	 -->
 
 .left[![:scale 105%](/images/Metcalfe.png)]
 ### Bob Metcalfe [InfoWorld Dec 23-30, 1996](https://books.google.co.il/books?id=FDoEAAAAMBAJ&pg=PA36&lpg=PA36&dq=predictions+the+internet+web+1980&source=bl&ots=89cydPBpPy&sig=UUkw-DwV1UptDVj5q3iOrqqLzzM&hl=en&sa=X&ved=0CD8Q6AEwB2oVChMInMKzmIeEyQIVwYUPCh1ITg8y#v=onepage&q=predictions%20the%20internet%20web%201980&f=true)
+
 ---
+
 <!-- template: inverse -->
 
 # Introduction
@@ -193,18 +237,25 @@ Furthermore, it lends naturally to clustering, user programmable networking.
 --
 
 ---
+
 # Quest for the Future Internet Architecture
+
 --
 
 # Why the __the__ ?
+
 --
 
 > Why not an unlimited number of Internet architectures, all cohabiting harmoniously ?
+
 ---
+
 # Think about it for a moment to let it sink in
+
 --
 
 # Why should there be only one (or a very few) Internet architectures ?
+
 ---
 
 # Vastly wider Application Space
