@@ -1,4 +1,4 @@
-{{ partial "slide/header.html" . }}
+{{ partial "header.html" . }}
 <body>
 	{{ if .Params.totop }}
 		<div id="nav-to-top">
@@ -6,21 +6,17 @@
 		</div>
 	{{ end }}
 
-  {{ if not .Params.slides }}
+{{ if not .Params.slides }}
 	<div id="layout" class="pure-g">
     {{ partial "sidebar.html" . }}
-  {{ end }}
-
 	{{ if .Params.banner }}
 	<div class="content-banner-image pure-u-1 pure-u-md-3-4" style="{{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}">
 		<img src="{{ .Params.banner }}" class="pure-img" style="{{ if .Params.bannerfill }}width: 100%;{{ end }}" />
 	</div>
 	{{ end }}
 
-  {{ if not .Params.slides }}
     <div class="content pure-u-1 pure-u-md-3-4">
 		<a name="top"></a>
-  {{ end }}
 		{{ partial "singletop.html" . }}
 
 		{{ if not .Params.notoc }}
@@ -31,7 +27,6 @@
 		    </div>
 		    {{ end }}
 	    {{ end }}
-      {{ if not .Params.slides }}
   		<section class="post">
             <h1 class="post-title">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -50,7 +45,6 @@
             		{{ partial "authorsocial.html" . }}
             	{{ end }}
             {{ end }}
-      {{ end }}
 
 			{{ $Site := .Site }}
 			{{ if .Params.categories }}
@@ -71,13 +65,7 @@
                                             {{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}" />
 			{{ end }}
 
-<textarea id="source" class="hide-remark-source">
-{{ if .Params.slides }}
-{{ partial "slide/wrdmacontent.md" }}
-    {{ else }}
-      {{ .Content }}
-    {{ end }}
-</textarea>
+            {{ .Content }}
 
 			{{ if .Params.socialsharing }}
 		    	{{ partial "socialsharing.html" . }}
@@ -100,7 +88,7 @@
 						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
 						<a class="paging-link" href="{{ .Prev.RelPermalink }}">{{ .Prev.Title }}</a>
 		            </div>
-      {{ end }}
+		            {{ end }}
 
 					{{ if .Next }}
 					<div class="paging-older">
@@ -109,18 +97,15 @@
 		            </div>
 		            {{ end }}
 	            </div>
-          {{ end }}
-      {{ if not .Params.slides }}
+            {{ end }}
           </section>
-      {{ end }}
           {{ if not .Params.nocomment }}
           	{{ template "_internal/disqus.html" . }}
           {{ end }}
 
-          {{ if not .Params.nofooter }}
-             {{ partial "footer.html" . }}
-          {{ end }}
+      {{ partial "footer.html" . }}
     </div>
+    {{ end }}
   </div>
 	{{ if .Params.totop }}
 		<script type="text/javascript">
@@ -150,6 +135,5 @@
 	{{ end }}
 
   {{ partial "bodyend.html" . }}
-
 </body>
 </html>

@@ -1,72 +1,3 @@
-<!-- class: center, middle, inverse
-## What is it and why should I be using it?
----
-layout: false
-.left-column[
-  ## What is it?
-]
-.right-column[
-  A simple, in-browser, Markdown-driven slideshow tool targeted at people who know their way around HTML and CSS, featuring:
-
-- Markdown formatting, with smart extensions
-
-- Presenter mode, with cloned slideshow view
-
-- Syntax highlighting, supporting a range of languages
-
-- Slide scaling, thus similar appearance on all devices / resolutions .red[*]
-
-- Touch support for smart phones and pads, i.e. swipe to navigate slides
-
-.footnote[.red[*] At least browsers try their best]
-]
----
-.left-column[
-  ## What is it?
-  ## Why use it?
-]
-.right-column[
-If your ideal slideshow creation workflow contains any of the following steps:
-
-- Just write what's on your mind
-
-- Do some basic styling
-
-- Easily collaborate with others
-
-- Share with and show to everyone
-
-Then remark might be perfect for your next.red[*] slideshow!
-
-.footnote[.red[*] You probably want to convert existing slideshows as well]
-]
----
-.left-column[
-  ## What is it?
-  ## Why use it?
-]
-.right-column[
-As the slideshow is expressed using Markdown, you may:
-
-- Focus on the content, expressing yourself in next to plain text not worrying what flashy graphics and disturbing effects to put where
-
-As the slideshow is actually an HTML document, you may:
-
-- Display it in any decent browser
-
-- Style it using regular CSS, just like any other HTML content
-
-- Use it offline!
-
-As the slideshow is contained in a plain file, you may:
-
-- Store it wherever you like; on your computer, hosted from your Dropbox, hosted on Github Pages alongside the stuff you're presenting...
-
-- Easily collaborate with others, keeping track of changes using your favourite SCM tool, like Git or Mercurial
-]
-
---- -->
-
 class: center, middle, main-title, inverse
 # Disrupting the Internet
 ## Wireless RDMA on D2D Mobile Devices
@@ -77,7 +8,6 @@ class: center, middle, main-title, inverse
 ---
 
 name: ExplodingInternet1
-class: middle
  # [The growth rate of the Internet](http://www.livinginternet.com/i/ip_growth.htm) <br/> exceeds that of any previous technology...
 ![:scale 105%](/images/internetofthingsgrowth.png)
 --
@@ -125,7 +55,6 @@ class: center
 ]
 
 ---
-
 name: NotTheFirst3
 class: center
 # This isn't the first disruption
@@ -139,11 +68,39 @@ class: center
 ]
 
 ---
-
 name: Bubbles
 class: center
 # Concentric Technology Bubbles <br/> Each wave envelopes its predecessors
 ![:scale 90%](/images/bubbles_in_bubbles.jpg)
+
+---
+name: Waves of Disruptions
+class: center
+background-image: /images/waves-of-disruption.jpg
+# Looking back from 2025...
+![:scale 100%](/images/waves-of-disruption.jpg)
+# the 2020 vision will have been disrupted</br>*By what?*
+
+---
+name: Platform
+class: center
+# **The Platform **is the disruptor
+.pull-right[![:scale 100%](/images/batman.jpg)]
+--
+
+### .left[Each wave is on an exponentially more pervasive computing platform]
+--
+
+### .left[What computing&nbsp;platform could be more&nbsp;pervasive, less&nbsp;expensive, more&nbsp;programmable than billions of wireless&nbsp;devices?]
+--
+
+### .left[We'll show you, but first a question...]
+
+---
+name: Programmable networks
+class: center
+# .left[Why can't networks be programmed?]
+# .left[A: Because of the [Protocol Wall](http://goo.gl/HSpSgH)</br>which blocks networking from software]
 
 ---
 > We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
@@ -188,32 +145,6 @@ Development of distributed apps over on-the-fly clusters in the cloud is rapidly
 The widely used RDMA clustering model with verbs programming has been a standard in HPC data centers for decades. RDMA on mobile clusters is ideal for writing distributed applications with their own custom protocol-free networking schemes.
 
 ---
-
-# 5G standards must take a close look at RDMA networking, particularly D2D to avoid IP lockin.
-RDMA is faster, more efficient. Zero-copy and lower cpu usage in the (extremely slim)
-
-RDMA network stack are more important in the mobile environment.
-
-Furthermore, it lends naturally to clustering, user programmable networking.
-
----
-
-# Computing Platform Evolution
-
-## Each Wave Dwarfs its Predecessor
-
----
-
-# .center[The key thing here is the Platform]
-
-![:scale 100%](/images/key_lock_image.jpg)
-
----
-
-# Platform Evolution
-
----
-
 # Clusters can be the Next Platform
 
 ---
@@ -228,33 +159,23 @@ Furthermore, it lends naturally to clustering, user programmable networking.
 
 --
 
-- Replace the computing nodes with 5G mobile devices.
+- Replace the fixed computing nodes with mobile devices.
 
 --
 
-- All of the wireless links are now D2D.
-
---
+- All of the wireless links are now D2D. and you have...
+### .left[An autonomous mobile distributed computing platform]
 
 ---
-
-# Quest for the Future Internet Architecture
-
---
-
-# Why the __the__ ?
+# Quest for __the__ Future Internet Architecture
 
 --
 
-> Why not an unlimited number of Internet architectures, all cohabiting harmoniously ?
-
----
-
-# Think about it for a moment to let it sink in
+# __the__? Only one?
 
 --
 
-# Why should there be only one (or a very few) Internet architectures ?
+## .left[Why not an unlimited number of free&#8209;to&#8209;evolve, user&nbsp;programmable Internet architectures, flowing side&nbsp;by&nbsp;side?]
 
 ---
 

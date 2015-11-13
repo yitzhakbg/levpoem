@@ -1,3 +1,22 @@
 {{ if .Params.slides }}
-  {{ partial "remarkjs" }}
+ <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+
+  {{ if .Params.slidesfile }}
+    <script>
+
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'remark',
+          highlightLines: true,
+          sourceUrl: "/slides/{{ .Params.slidesfile }}"
+        }) ;
+    </script>
+  {{ end }}
 {{ end }}
