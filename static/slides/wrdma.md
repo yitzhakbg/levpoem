@@ -1,3 +1,7 @@
+layout: true
+.tohome[[![:scale 90%](/images/celestial-neighbors-323444.jpg "home")](http://localhost:1313)]
+
+---
 class: center, middle, main-title, inverse
 # Disrupting the Internet
 ## Wireless RDMA on D2D Mobile Devices
@@ -100,7 +104,7 @@ class: center
 name: Programmable networks
 class: center
 # .left[Why can't networks be programmed?]
-# .left[A: Because of the [Protocol Wall](http://goo.gl/HSpSgH)</br>which blocks networking from software]
+# .left[A: Because the [Protocol Wall](http://goo.gl/HSpSgH)</br>blocks networking from software]
 
 ---
 > We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
