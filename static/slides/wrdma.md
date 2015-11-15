@@ -107,6 +107,77 @@ class: center
 # .left[A: Because the [Protocol Wall](http://goo.gl/HSpSgH)</br>blocks networking from software]
 
 ---
+<div class="embed video-player">
+<iframe width="800" height="600" src="https://www.youtube.com/v/5klbDmLCehY?list=PL1ACKARftyBDLK67SIj6cba5uk24fE-ff&rel=0&autoplay=1&controls=1&fs=1&loop=0&vq=hd720&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+---
+## High Protocol Wall
+
+![:scale 110%](/images/TCPIPStackHiWall1.png)
+---
+## Low Protocol Wall
+![:scale 110%](/images/TCPIPStackLoWall.png)
+---
+name: ThatWas
+### So far, as seen in context of our "__classical__" networking world
+--
+
+## Probably won't be adopted
+--
+  due to the protocol-frozen mind set
+--
+
+## Next see where the model really shines...
+---
+name: EasyToGrasp
+# Easy to Grasp Model
+
+- Take a High Performance RDMA Computing center.
+	- It's a computing platform, isn't it?
+--
+
+- Replace all of the wire/optical fiber links with wireless.
+	- Still a computing platform?
+--
+
+- Replace the fixed computing nodes with mobile devices.
+	- Still a computing platform?
+---
+background-image: url(/images/EasyToGrasp.png)
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+---
+background-image: url(/images/BecomesWirelessHPC.png)
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+---
+# Grasp that...
+- Every cluster is a full-blown autonomous computing platform
+--
+
+- Any combination of devices can cluster
+--
+
+- Every cluster can (optionally) be an IP addressable node
+	- billions of Internet devices now become trillions
+--
+
+- Orthogonal to the Internet and conventional networking
+	- Entirely new programming/computing realm
+	- Inter-cluster network traffic
+		- fast
+		- no burden on existing infrastructure
+	- New networking paradigms
+		- evolve freely
+		- at software speed
+--
+
+- Clusters can cluster
+	- Multi-million node global clusters
+- etc., etc...
+---
 > We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
 (One classic example: When it became clear that Apple was working on an “iPhone,” almost all the speculation involved something that was either a lot like an iPod, or a lot like other phones of the time. As far as I know, nobody expected anything remotely like the epoch-shifting device Apple released.)
 
@@ -152,20 +223,6 @@ The widely used RDMA clustering model with verbs programming has been a standard
 # Clusters can be the Next Platform
 
 ---
-
-# Easy to Grasp Model
-
-- Take a High Performance RDMA Computing center.
-
---
-
-- Replace all of the wire links with wireless.
-
---
-
-- Replace the fixed computing nodes with mobile devices.
-
---
 
 - All of the wireless links are now D2D. and you have...
 ### .left[An autonomous mobile distributed computing platform]
