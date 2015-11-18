@@ -10,10 +10,7 @@ Incorporated remarkjs slide presentations.
 1. Added branch content/slide.
 
 2. Added the following two parameters to the front matter:
-slides = "true"
-slidesFile = "wrdma.md"
-
-where slidesFile is the name of slide .md file in static/slides. There is no content in the content file, only the front matter.
+slides = "true", slidesFile = "wrdma.md"</br>where slidesFile is the name of slides .md file in static/slides. The content file is empty except for the front matter.
 
 3. Added conditionals on the .Params.slides parameter in:
 layouts/partials/bodyend.html, layouts/partials/headend.html and layouts/slide/single.html
