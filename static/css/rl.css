@@ -23,6 +23,7 @@
     html, .post-summary, .post, .post p {
     font-size: 1.15rem;
   }
+}
 @media (min-width: 98rem) {
   html, .post-summary, .post, .post p {
   font-size: 1.2rem;
