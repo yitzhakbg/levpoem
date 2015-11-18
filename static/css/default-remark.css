@@ -23,13 +23,18 @@ h3 {
   position: absolute;
   bottom: 3em;
 }
-.red {
+/*.red {
   color: #fa0000;
+}*/
+.grey {
+  color: #000000;
 }
 .large {
   font-size: 2em;
 }
-a,
+.theYellowBackground {background-color:#D9DDA9;color: #2e343b;}
+/* The sections commented out are taken from the original default-remark.css. They could be useful in the future.
+/*a,
 a > code {
   color: #f92672;
   text-decoration: none;
@@ -39,7 +44,7 @@ code {
   -web-border-radius: 5px;
   background: #e7e8e2;
   border-radius: 5px;
-}
+}*/
 .pull-left {
   float: left;
   width: 47%;
@@ -51,13 +56,13 @@ code {
 .pull-right ~ p {
   clear: both;
 }
-#slideshow .slide .content code {
+/*#slideshow .slide .content code {
   font-size: 0.8em;
 }
 #slideshow .slide .content pre code {
   font-size: 0.9em;
   padding: 15px;
-}
+}*/
 .inverse {
   background: #272822;
   color: #777872;
@@ -68,7 +73,7 @@ code {
   color: #f3f3f3;
   line-height: 0.8em;
 }
-/* Slide-specific styling */
+/* Slide-specific styling
 #slide-how .slides {
   font-size: 0.9em;
   position: absolute;
@@ -98,7 +103,7 @@ code {
   position: relative;
   background: #fff;
   z-index: 0;
-}
+} */
 /* Two-column layout */
 .left-column {
   color: #777;
