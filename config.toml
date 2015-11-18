@@ -6,7 +6,7 @@ license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
 description = "An excursion into YBG's inner world"
 # homepage = "http://46.101.221.201:2015"
-tags = ["", "Implosion", "Chart.js", "Lightbox", "gallery"]
+tags = ["", "Protocoless", "D2D", "nowall"]
 features = ["blog", "gallery"]
 canonifyurls = true
 
