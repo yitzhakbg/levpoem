@@ -1,7 +1,3 @@
-{{ if isset .Params "slides" }}
-  {{ partial "slide/header.html" . }}
-{{ else }}
-{{ partial "doctype.html" . }}
 <head>
   <title>
     {{ .Title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title }}{{ end }} | Yitzhak Bar Geva
@@ -52,4 +48,3 @@
 
   {{ partial "headend.html" . }}
 </head>
-{{ end }}
