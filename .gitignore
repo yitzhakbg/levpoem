@@ -1,2 +1,5 @@
 public/**
 *.log
+cssoverflow/
+saved_images/
+static/oldcss/
