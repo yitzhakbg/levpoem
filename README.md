@@ -5,7 +5,22 @@ Yitzhak Bar Geva's [hugo](http://gohugo.io/) blog using Tom Maiaroto's [redloung
 
 ### [remarkjs](http://remarkjs.com/#1)
 
-Incorporated for slide presentations. A tad unwieldy at the moment since hugo presently can't import non-rendering files. The workaround was to import the slide presentation file as a partial. Define __slides__ "true" in the head matter and everything else false if you don't want the screen cluttered up. See contents/slide/wrdma.md, really just a dummy file with no content and the line {{ partial "slide/wrdmacontent.md" }} in the custom layouts/slide/single.html for an example.
+Incorporated remarkjs slide presentations.
+
+1. Added branch content/slide.
+
+2. Added the following two parameters to the front matter:
+slides = "true"
+slidesFile = "wrdma.md"
+
+where slidesFile is the name of slide .md file in static/slides. There is no content in the content file, only the front matter.
+
+3. Added conditionals on the .Params.slides parameter in:
+layouts/partials/bodyend.html, layouts/partials/headend.html and layouts/slide/single.html
+
+4. Added layouts/partials/remarkheader.html which pulls in both your (optional) remark css file and remarkjs itself.
+
+5. The action is in layouts/partials/bodyend.html:
 
 ### [Docker](https://www.docker.com/)
 
