@@ -22,6 +22,7 @@ h3 {
 .footnote {
   position: absolute;
   bottom: 3em;
+  font-size: smaller;
 }
 /*.red {
   color: #fa0000;
@@ -33,6 +34,9 @@ h3 {
   font-size: 2em;
 }
 .theYellowBackground {background-color:#D9DDA9;color: #2e343b;}
+.theGreyBackground {background-color:#2e343b;color: #D9DDA9;}
+.theBlackBackground {background-color:#000000;color: #FFFFFF;}
+.theWhiteBackground {background-color:#FFFFFF;color: #000000;}
 /* The sections commented out are taken from the original default-remark.css. They could be useful in the future.
 /*a,
 a > code {

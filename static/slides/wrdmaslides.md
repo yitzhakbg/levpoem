@@ -1,6 +1,6 @@
 layout: true
 class: left, top, theYellowBackground
-.tohome[[![:scale 30%](/images/home-icon.png "home")](http://levpoem.co.il)]
+.tohome[[![:scale 30%](/images/home-icon.png "home")](http://localhost:1313)]
 ---
 class: center, middle, main-title, inverse
 # Disrupting the Internet
@@ -13,14 +13,18 @@ name: ExplodingInternet1
 # [The growth rate of the Internet](http://www.livinginternet.com/i/ip_growth.htm)<br/>exceeds that of any previous technology...
 ![:scale 105%](/images/internetofthingsgrowth.png)
 --
+count: false
  
  #### The Internet is growing exponentially in three different directions -- size, processing power, and software sophistication -- making it the fastest growing technology humankind has ever created
 ---
+count: false
 name: Except4
 # All the superlatives are true
 --
  except that...
+
 --
+count: false
 
 # .left-column[This is a rerun.]
 <div class="embed video-player">
@@ -40,6 +44,7 @@ class: center
 	![:scale 100%](/images/MainframesDisrupted.jpg)
 ]
 ---
+count: false
 
 name: NotTheFirst2
 class: center
@@ -54,6 +59,7 @@ class: center
 ---
 name: NotTheFirst3
 class: center
+count: false
 # This isn't the first disruption
 .left-column[
   ## Personal Computers
@@ -70,40 +76,46 @@ class: center
 ![:scale 85%](/images/bubbles_in_bubbles.jpg)
 ---
 name: Waves of Disruptions
-class: center
+class: center, top
 background-image: /images/waves-of-disruption.jpg
-# Looking back from 2025...
-![:scale 100%](/images/waves-of-disruption.jpg)
-# the 2020 vision will have been disrupted
+## .left[Looking back from 2025...</br>the 2020 vision will have been disrupted]
+![:scale 95%](/images/waves-of-disruption.jpg)
 --
-.center[*But by what?*]
+
+# .center[_**By what?**_]
 ---
 name: Platform
-# **The Platform **is the disruptor
+# .center[**The Platform** is the disruptor]
 .pull-right[![:scale 100%](/images/batman.jpg)]
 --
+count: false
 
 ### .left[Each wave is on an exponentially more pervasive computing&nbsp;platform]
 --
+count: false
 
 ### .left[What computing&nbsp;platform could be more&nbsp;pervasive, less&nbsp;expensive, more&nbsp;programmable than tens&nbsp;of&nbsp;billions of wireless&nbsp;devices?]
 --
 
-### .left[We'll see, but first, a few questions...]
+### .left[We'll see, but first a few questions...]
 ---
 name: Questions
 class: left
-# Quest for __the__ Future Internet Architecture</br>
+# Quest for the Future Internet Architecture</br>
 --
-__the__? Only one?
+count: false
+# __the__?? Only one?
 
 --
+count: false
 
 ### 1. Why not an unlimited number of free&#8209;to&#8209;evolve Internet architectures, flowing side&nbsp;by&nbsp;side?
 --
+count: false
 
 ### 2. Why can't networks be programmed?
 --
+count: false
 
 ### 3. Why confining protocols?
 ---
@@ -118,24 +130,39 @@ __the__? Only one?
 ![:scale 100%](/images/TCPIPStackHiWall1.png)
 
 ---
+count: false
 
 ## Low Protocol Wall
 ![:scale 100%](/images/TCPIPStackLoWall.png)
 
 ---
 name: ThatWas
-class: center, middle
+class: left, top
 # Next see where the model really shines...
+![:scale 80%](/images/shine.jpg)
+
+.footnote[[Press here for an introduction to RDMA and InfiBand](#RDMAIntro)]
+---
+name: cellularD2D
+class: left, top
+# .center[Cellular D2D]
+Cellular D2D can turn mobile/wireless device clusters into the next generation application platform.
+
+Development of distributed apps over on-the-fly clusters in the cloud is rapidly gaining popularity, but today’s networking strata is sorely lacking for the job.
+
+The widely used RDMA clustering model with verbs programming has been a standard in HPC data centers for decades. RDMA on mobile clusters is ideal for writing distributed applications with their own custom networking schemes.
 ---
 name: EasyToGrasp1
 ## **Easy to Grasp Model** - Take an HPC Computing center.
 .center[![:scale 98%](/images/hpc-solution-diagram_sm.jpg)]
 ---
 name: EasyToGrasp2
+count: false
 ## **Easy to Grasp Model** Replace wire links with wireless
 .center[![:scale 96%](/images/hpc-diagram_wireless.png)]
 ---
 name: EasyToGrasp3
+count: false
 ### **Easy to Grasp Model** Replace compute nodes with mobile devices
 .center[![:scale 98%](/images/hpc-diagram_mobile.png)]
 ---
@@ -146,70 +173,139 @@ background-size: contain;
 ---
 
 ## Every cluster is an autonomous computing platform</br>Entirely new network/computing realm
---
+### Vastly wider application space
+  - Order of magnitude more clusters than devices
+
+### Orthogonal to the Internet, 
+  - Not out to change or improve the Internet
+  - Intra-cluster network traffic
+    - Close proximity = fast. No burden on existing infrastructure
+  - New networking paradigms can evolve freely, at software speed
+
+---
+class: left, top
 
 ### Any combination of devices can cluster
+- Devices can pool their cores and storage
+- Devices can belong to multiple clusters simultaneously 
 - Every cluster can (optionally) be an IP addressable node
-  - tens of billions of Internet devices now become trillions
-
---
-
-### Orthogonal to the Internet and conventional networking
-- Inter-cluster network traffic
-  - fast
-  - no burden on existing infrastructure
-- New networking paradigms
-  - evolve freely
-  - at software speed
---
-
+   - tens of billions of Internet devices now become trillions
 - Clusters can cluster
-	- Multi-million node global clusters
+   - Multi-million node global clusters
+
+.right[![:scale 80%](/images/cluster model transparent.png)]
 ---
-
-> We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
-(One classic example: When it became clear that Apple was working on an “iPhone,” almost all the speculation involved something that was either a lot like an iPod, or a lot like other phones of the time. As far as I know, nobody expected anything remotely like the epoch-shifting device Apple released.)
+class: left, top
+# .center[Avoid Pitfalls]
+.left[![:scale 65%](/images/fallingintohole.png)]
+1. Put performance aside for now.
+  - Obsession with it got us into the protocol pit in the first place.
+  - Not essential. Can be dealt with later, as in the past.
 --
-
-> [We techies should be more honest](http://learn.org/articles/Looking_Back_to_the_Future_Past_Predictions_About_the_Internet.html) about what computers can do and what they cannot do, or else we are setting ourselves up for a big pie in the face.'
-
--Clifford Stoll, 1995
+count: false
+2. **The classic mistake:** Binding the platform with what can be done with it.
 ---
-
-### Ken Olson, founder and CEO of Digital Equipment Corporation (whom Bill Gates had idolized as a teenager), had been debunking the PC since 1977, when he told a convention of the World Future Society,
---
-
-> # *_"There is no reason for any individual to have a computer in his home."_*
-
---
-
-### Olson's mistake was in binding the platform with what could be done with it. We never have an inkling. No one knew what could be done with personal computers, no one knew what could be done with the web, no one knew what could be done with smartphones. Let's not repeat that mistake.
-
-???
-
-## Olson's mistake was in binding the platform with what could be done with it. We never have an inkling. No one knew what could be done with personal computers, no one knew what could be done with the web, no one knew what could be done with smartphones. Let's not repeat that mistake.
----
-	<!-- <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.il/books?id=FDoEAAAAMBAJ&lpg=PA36&ots=89cydPBpPy&dq=predictions%20the%20internet%20web%201980&pg=PA36&output=embed" width=500 height=500></iframe>
-	 -->
+<!-- <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.il/books?id=FDoEAAAAMBAJ&lpg=PA36&ots=89cydPBpPy&dq=predictions%20the%20internet%20web%201980&pg=PA36&output=embed" width=500 height=500></iframe>
+   -->
 
 .center[![:scale 105%](/images/Metcalfe.png)]
 ### Bob Metcalfe [InfoWorld Dec 23-30, 1996](https://books.google.co.il/books?id=FDoEAAAAMBAJ&pg=PA36&lpg=PA36&dq=predictions+the+internet+web+1980&source=bl&ots=89cydPBpPy&sig=UUkw-DwV1UptDVj5q3iOrqqLzzM&hl=en&sa=X&ved=0CD8Q6AEwB2oVChMInMKzmIeEyQIVwYUPCh1ITg8y#v=onepage&q=predictions%20the%20internet%20web%201980&f=true)
 ---
-<!-- template: inverse -->
 
-# Introduction
-D2D in 5G cellular can turn mobile/wireless device clusters into the next generation application platform.
+### Ken Olson<sup>*</sup>, .footnote.left[founder and CEO of Digital Equipment Corporation, 1977]whom Bill Gates had idolized as a teenager, had been debunking the PC since 1977, when he told a convention of the World Future Society,
+--
+count: false
 
-Development of distributed apps over on-the-fly clusters in the cloud is rapidly gaining popularity, but today’s networking strata is sorely lacking for the job.
+> # *_"There is no reason for any individual to have a computer in his home."_*
 
-The widely used RDMA clustering model with verbs programming has been a standard in HPC data centers for decades. RDMA on mobile clusters is ideal for writing distributed applications with their own custom protocol-free networking schemes.
+--
+count: false
+
+### Metcalfe and Olson's mistake was in binding the platform with what could be done with it. We had no inkling of what could be done with the computer, with the web, with the smartphone.
+
+???
+
+## Metcalfe and Olson's mistake was in binding the platform with what could be done with it. We never have an inkling. No one knew what could be done with personal computers, no one knew what could be done with the web, no one knew what could be done with smartphones. Let's not repeat that mistake.
 ---
 
-# Vastly wider Application Space
-Order of magnitude more clusters than devices
+name: RDMADescr1
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
 ---
 
-# Powerful over and beyond sheer horsepower
+name: RDMADescr2
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Over Wireless Clusters.png")
+background-repeat: no-repeat;
+---
+
+name: RDMADescr3
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA User Space programmable.png")
+---
+
+name: RDMADescr4
+class: top, center, theWhiteBackground
+background-image: url("/images/Programmable.png")
+---
+
+name: RDMADescr5
+class: top, center, theWhiteBackground
+background-image: url("/images/Not Programmable.png")
+---
+
+name: RDMADescr6
+class: top, center, theWhiteBackground
+background-image: url("/images/ROCE - RDMA over.png")
+---
+
+name: RDMADescr7
+class: top, center, theWhiteBackground
+background-image: url("/images/ROCE in kernel.png")
+---
+
+name: RDMADescr8
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
+---
+
+name: RDMADescr9
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
+---
+
+name: RDMADescr10
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
+---
+
+name: RDMAIntro
+class: top, center, theWhiteBackground
+background-image: url("/images/Overview of RDMA and ROCE.png")
+---
+name: RDMAIntro1
+class: top, center, theWhiteBackground
+background-image: url("/images/RDMA Technology Overview.png")
+---
+name: RDMAIntro3
+class: top, center, theGreyBackground
+background-image: url("/images/Remote Direct Memory Access.png")
+---
+name: RDMAIntro4
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Benefits.png")
+---
+name: RDMAIntro5
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Technologies.png")
+---
+name: RDMAIntro6
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Architecture Layering.png")
+---
+name: RDMAIntro7
+class: top, center, theBlackBackground
+background-image: url("/images/Kernel Bypass.png")
 ---
 
 # Note: InfiniBand transport in h/w (on the NIC)
@@ -302,3 +398,12 @@ Here’s a fine example of what we’re striving for languages and services over
 --
 
 - etc., etc….
+---
+
+> We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
+(One classic example: When it became clear that Apple was working on an “iPhone,” almost all the speculation involved something that was either a lot like an iPod, or a lot like other phones of the time. As far as I know, nobody expected anything remotely like the epoch-shifting device Apple released.)
+--
+
+> [We techies should be more honest](http://learn.org/articles/Looking_Back_to_the_Future_Past_Predictions_About_the_Internet.html) about what computers can do and what they cannot do, or else we are setting ourselves up for a big pie in the face.'
+
+-Clifford Stoll, 1995
