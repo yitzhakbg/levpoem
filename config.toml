@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "YBG's Blog"
 name = "YBloGeva"
-BaseURL = "http://levpoem.co.il"
+# BaseURL = "http://localhost:1313"
 license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
 description = "An excursion into YBG's inner world"
