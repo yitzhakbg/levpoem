@@ -172,15 +172,20 @@ background-repeat: no-repeat;
 background-size: contain;
 ---
 
-## Every cluster is an autonomous computing platform</br>Entirely new network/computing realm
-### Vastly wider application space
+## Entirely new network/computing realm
+### Vastly wider application space, higher device density and power
   - Order of magnitude more clusters than devices
+  - Mobile devices will be multicore with much higher device density
 
-### Orthogonal to the Internet, 
+### Orthogonal to the Internet
   - Not out to change or improve the Internet
   - Intra-cluster network traffic
     - Close proximity = fast. No burden on existing infrastructure
   - New networking paradigms can evolve freely, at software speed
+
+### RDMA Underutilized
+  - High Power computing steals the limelight from RDMA.
+    - RDMA has tremendous potential in other spheres, once it's set free
 
 ---
 class: left, top
