@@ -5,6 +5,7 @@ class: left, top, theYellowBackground
 class: center, middle, main-title, inverse
 # Disrupting the Internet
 ## Wireless RDMA on D2D Mobile Devices
+## **C**luster **A**s **A**pplication **P**latform
 
 ### Yitzhak Bar Geva, Prof. Jon Crowcroft
 ### November 2015
@@ -70,11 +71,6 @@ count: false
 	![:scale 100%](/images/Growth-Global-Mobile-Internet-Google-ex1_inline_tcm80-181547.png))
 ]
 ---
-name: Bubbles
-class: center
-# Concentric Technology Bubbles <br/> Each wave envelopes its predecessors
-![:scale 85%](/images/bubbles_in_bubbles.jpg)
----
 name: Waves of Disruptions
 class: center, top
 background-image: /images/waves-of-disruption.jpg
@@ -95,33 +91,39 @@ count: false
 count: false
 
 ### .left[What computing&nbsp;platform could be more&nbsp;pervasive, less&nbsp;expensive, more&nbsp;programmable than tens&nbsp;of&nbsp;billions of wireless&nbsp;devices?]
---
-
-### .left[We'll see, but first a few questions...]
 ---
-name: Questions
-class: left
-# Quest for the Future Internet Architecture</br>
+name: Bubbles
+class: center
+# Concentric Technology Bubbles <br/> Each wave envelopes its predecessors
+![:scale 85%](/images/bubbles_in_bubbles.jpg)
+---
+name: Wait1
+class: center
+# Concentric Technology Bubbles <br/> Each wave envelopes its predecessors
+![:scale 85%](/images/bubbles_in_bubbles.jpg)
+---
+background-image: url(/images/ViewItFromOutside.png)
+name: ViewFromOutside
+class: center
+---
+count: false
+class: left, top
+# Heard of quest for</br>the Future Internet Architecture?
 --
 count: false
-# __the__?? Only one?
-
+# __the__?? .smaller[Future Internet Architecture]</br>What? Only one?
 --
 count: false
 
-### 1. Why not an unlimited number of free&#8209;to&#8209;evolve Internet architectures, flowing side&nbsp;by&nbsp;side?
+## Why not an unlimited number of free&#8209;to&#8209;evolve Internet architectures, flowing side&nbsp;by&nbsp;side?
 --
 count: false
 
-### 2. Why can't networks be programmed?
---
-count: false
-
-### 3. Why confining protocols?
+## Why can't networks be programmed?
 ---
 
 <div class="embed video-player">
-<iframe width="800" height="600" src="https://www.youtube.com/v/J9t_Vt2jJLI?list=PL1ACKARftyBC3Aun18Mj_9lz5h0K1vHiQ&rel=0&autoplay=1&controls=1&fs=1&loop=0&vq=hd720&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/v/J9t_Vt2jJLI?list=PL1ACKARftyBC3Aun18Mj_9lz5h0K1vHiQ&start=0&rel=0&autoplay=1&controls=1&fs=1&loop=0&vq=hd720&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 ---
 
@@ -151,46 +153,84 @@ Cellular D2D can turn mobile/wireless device clusters into the next generation a
 Development of distributed apps over on-the-fly clusters in the cloud is rapidly gaining popularity, but today’s networking strata is sorely lacking for the job.
 
 The widely used RDMA clustering model with verbs programming has been a standard in HPC data centers for decades. RDMA on mobile clusters is ideal for writing distributed applications with their own custom networking schemes.
+
+# **Easy to grasp model**...
 ---
 name: EasyToGrasp1
-## **Easy to Grasp Model** - Take an HPC Computing center.
+# 1. Take an HPC Computing center.
 .center[![:scale 98%](/images/hpc-solution-diagram_sm.jpg)]
 ---
 name: EasyToGrasp2
 count: false
-## **Easy to Grasp Model** Replace wire links with wireless
+# 2. Replace wire links with wireless
 .center[![:scale 96%](/images/hpc-diagram_wireless.png)]
 ---
 name: EasyToGrasp3
 count: false
-### **Easy to Grasp Model** Replace compute nodes with mobile devices
+## 3. Replace compute nodes with mobile devices
 .center[![:scale 98%](/images/hpc-diagram_mobile.png)]
 ---
-background-image: url(/images/EasyToGrasp.png)
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
+name:LetItSinkIn
+# It's an autonomous computing platform
+# .left[ ![:scale 40%](/images/waitamoment.png) and let it sink in]
 ---
+name: entirelynew1
 
-## Entirely new network/computing realm
-### Vastly wider application space, higher device density and power
-  - Order of magnitude more clusters than devices
-  - Mobile devices will be multicore with much higher device density
+# .center[Entirely new network/computing realm]
+.left-column[
+  ## Power
+]
+.right-column.medium[
+Order of magnitude more clusters than devices
+- Multicore mobile devices
 
-### Orthogonal to the Internet
-  - Not out to change or improve the Internet
-  - Intra-cluster network traffic
-    - Close proximity = fast. No burden on existing infrastructure
-  - New networking paradigms can evolve freely, at software speed
+- Much higher device density
 
-### RDMA Underutilized
-  - High Power computing steals the limelight from RDMA.
-    - RDMA has tremendous potential in other spheres, once it's set free
-
+Orthogonal to the Internet
+- Not out to change or improve the Internet
+]
 ---
+count: false
+name: entirelynew2
+
+# .center[Entirely new network/computing realm]
+.left-column[
+  ## Traffic
+]
+.right-column.medium[
+No need for external service providers
+
+Intra-cluster network traffic
+
+- Close proximity means speed
+
+- No burden on existing infrastructure
+]
+---
+count: false
+name: entirelynew3
+
+# .center[Entirely new network/computing realm]
+.left-column[
+  ### Programming
+]
+.right-column.medium[
+Network code above the protocol wall
+- is programmable application code
+
+- New networking paradigms can evolve freely, at software speed
+
+- _Comes out of the closet_ with new tools and languages
+]
+---
+count: false
+name: entirelynew4
 class: left, top
 
-### Any combination of devices can cluster
+# .center[Entirely new network/computing realm]
+
+.left.medium[
+### Clustering
 - Devices can pool their cores and storage
 - Devices can belong to multiple clusters simultaneously 
 - Every cluster can (optionally) be an IP addressable node
@@ -198,17 +238,22 @@ class: left, top
 - Clusters can cluster
    - Multi-million node global clusters
 
-.right[![:scale 80%](/images/cluster model transparent.png)]
+.right[![:scale 50%](/images/cluster model transparent.png)]
+]
 ---
 class: left, top
 # .center[Avoid Pitfalls]
-.left[![:scale 65%](/images/fallingintohole.png)]
-1. Put performance aside for now.
-  - Obsession with it got us into the protocol pit in the first place.
+.left[![:scale 50%](/images/fallingintohole.png)]
+.medium[
+Performance is not paramount at the outset
+  - Obsession with performance got us into the protocol pit
   - Not essential. Can be dealt with later, as in the past.
+]
 --
 count: false
-2. **The classic mistake:** Binding the platform with what can be done with it.
+.medium[
+**The classic mistake:** Binding the platform with what can be done with it.
+]
 ---
 <!-- <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.il/books?id=FDoEAAAAMBAJ&lpg=PA36&ots=89cydPBpPy&dq=predictions%20the%20internet%20web%201980&pg=PA36&output=embed" width=500 height=500></iframe>
    -->
@@ -226,64 +271,29 @@ count: false
 --
 count: false
 
-### Metcalfe and Olson's mistake was in binding the platform with what could be done with it. We had no inkling of what could be done with the computer, with the web, with the smartphone.
+### Metcalfe and Olson's mistake was binding the platform with what could be done with it. We had no inkling in advance of what could be done with the computer, with the web, with the smartphone.
 
 ???
 
-## Metcalfe and Olson's mistake was in binding the platform with what could be done with it. We never have an inkling. No one knew what could be done with personal computers, no one knew what could be done with the web, no one knew what could be done with smartphones. Let's not repeat that mistake.
+## Metcalfe and Olson's mistake was binding the platform with what could be done with it. We never have an inkling. No one knew what could be done with personal computers, no one knew what could be done with the web, no one knew what could be done with smartphones. Let's not repeat that mistake.
 ---
-
-name: RDMADescr1
+name: NotSoSimple1
 class: top, center, theGreyBackground
-background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
+background-image: url("/images/SimpleConceptual.png")
 ---
-
-name: RDMADescr2
+name: NotSoSimple2
 class: top, center, theGreyBackground
-background-image: url("/images/RDMA Over Wireless Clusters.png")
-background-repeat: no-repeat;
+background-image: url("/images/Challenges.png")
 ---
-
-name: RDMADescr3
+name: NotSoSimple3
 class: top, center, theGreyBackground
-background-image: url("/images/RDMA User Space programmable.png")
+background-image: url("/images/NothingWeDont.png")
 ---
-
-name: RDMADescr4
-class: top, center, theWhiteBackground
-background-image: url("/images/Programmable.png")
+name: nutshell
+class: left, top
+# That's it in a netshell.
+## .center[![:scale 60%](/images/nutshell.png)</br>Next, an pictorial description of RDMA]
 ---
-
-name: RDMADescr5
-class: top, center, theWhiteBackground
-background-image: url("/images/Not Programmable.png")
----
-
-name: RDMADescr6
-class: top, center, theWhiteBackground
-background-image: url("/images/ROCE - RDMA over.png")
----
-
-name: RDMADescr7
-class: top, center, theWhiteBackground
-background-image: url("/images/ROCE in kernel.png")
----
-
-name: RDMADescr8
-class: top, center, theGreyBackground
-background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
----
-
-name: RDMADescr9
-class: top, center, theGreyBackground
-background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
----
-
-name: RDMADescr10
-class: top, center, theGreyBackground
-background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
----
-
 name: RDMAIntro
 class: top, center, theWhiteBackground
 background-image: url("/images/Overview of RDMA and ROCE.png")
@@ -312,103 +322,75 @@ name: RDMAIntro7
 class: top, center, theBlackBackground
 background-image: url("/images/Kernel Bypass.png")
 ---
-
-# Note: InfiniBand transport in h/w (on the NIC)
+name: RDMAIntro8
+class: top, center, theBlackBackground
+background-image: url("/images/ofed.png")
 ---
-
-# Kernel Bypass
+name: RDMADescr1
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Mapped Over Wireless Clusters.png")
 ---
-
-# InfiniBand
-
-High speed communications link for data flow between processors and I/O devices with support for up to 64,000 addressable devices. Scalable, supports quality of service (QoS) and failover. Widely used as a server connect in HPC environments. InfiniBand is at the core of this presentation. Familiarity with IB is assumed.
+name: RDMADescr2
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA Over Wireless Clusters.png")
+background-repeat: no-repeat;
 ---
-
-InfiBand is evolving, becoming more efficient, utilizing hardware advancements
+name: RDMADescr3
+class: top, center, theGreyBackground
+background-image: url("/images/RDMA User Space programmable.png")
 ---
-
-# iWARP - Internet Wide Area RDMA Protocol
+name: RDMADescr4
+class: top, center, theWhiteBackground
+background-image: url("/images/Upper Layer Protocols.png")
 ---
-
-# Means that…
+name: RDMADescr5
+class: top, center, theGreyBackground
+background-image: url("/images/verbs.png")
 ---
-
-# OFED - OpenFabrics Enterprise Distribution
-
-???
-
-Open Source software provided by the OpenFabrics Alliance. Provides legacy services over InfiniBand through APIs to Upper Layer Protocol (ULP) (annotated by yellow marker) kernel modules.
-
-Not what we want. The ULP route is not programable.
+name: RDMADescr6
+class: top, center, theGreyBackground
+background-image: url("/images/Java\ 7\ VM\ over\ verbs.png")
 ---
-
-Following the previous slide, the left hand side shows applications interfaced through APIs to Upper Layer Protocols (ULPs) to legacy service emulation. Not Programmable!
-
+name: RDMADescr7
+class: top, center, theWhiteBackground
+background-image: url("/images/Programmable.png")
 ---
-
-# Programmability with RDMA verbs (or newer PSM)
+name: RDMADescr8
+class: top, center, theWhiteBackground
+background-image: url("/images/Not Programmable.png")
 ---
-
-# Verbs
-
-???
-
-Here we see the comparison between inflexible protocols in the kernel (previous slide on the right) and programmable RDMA verbs. Still a tricky art without a yet-to-be developed verbs compiler. Not trivial, but the payoff is enormous since the verb-programming code is application code, could be incorporated with the app.
+name: RDMADescr9
+class: top, center, theWhiteBackground
+background-image: url("/images/InfiniBand.png")
 ---
-
-# Java 7 VM over verbs
-
-???
-
-Here’s a fine example of what we’re striving for languages and services over verbs (or newer technology, PSM etc.). This is Java 7. We want additional concurrent languages like GoLang, Erlang/Elixir, etc. over verbs.
+name: RDMADescr10
+class: top, center, theWhiteBackground
+background-image: url("/images/InfiniBand in Kernel.png")
 ---
-
-# Custom Networking Schemes
-
-# RDMA transfers between GPUs
+name: RDMADescr11
+class: top, center, theWhiteBackground
+background-image: url("/images/ROCE - RDMA over.png")
 ---
-
-# Virtualized RDMA
+name: RDMADescr12
+class: top, center, theWhiteBackground
+background-image: url("/images/ROCE in kernel.png")
 ---
-
-- On-the-fly clustering of mobile devices
---
-
-- Wireless InfiniBand Fabric Manager
---
-
-- Wireless InfiniBand chips. SoftROCE over Wi-Fi for the interim
---
-
-- Android virtualized RDMA or container D2D apps
---
-
--  Networking Meta Language or DSL over RDMA verbs
-
+name: RDMADescr13
+class: top, center, theWhiteBackground
+background-image: url("/images/Internet Wide Area RDMA.png")
 ---
-
-- Lacking external switching devices, switching and routing have to be done by the devices themselves.
---
-
-- Seeding - bootstrapping the app/cluster
---
-
-- Isolation between overlapping app/clusters
---
-
-- Mixing and merging overlapping app/clusters
---
-
-- Member registration, volatile resource allocation manager
---
-
-- etc., etc….
+name: RDMADescr14
+class: top, center, theWhiteBackground
+background-image: url("/images/iWarp in Kernel.png")
 ---
-
-> We tend to think that new products will be a lot like the ones we know. [We shoehorn existing concepts](http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/) where they don’t belong.
-(One classic example: When it became clear that Apple was working on an “iPhone,” almost all the speculation involved something that was either a lot like an iPod, or a lot like other phones of the time. As far as I know, nobody expected anything remotely like the epoch-shifting device Apple released.)
---
-
-> [We techies should be more honest](http://learn.org/articles/Looking_Back_to_the_Future_Past_Predictions_About_the_Internet.html) about what computers can do and what they cannot do, or else we are setting ourselves up for a big pie in the face.'
-
--Clifford Stoll, 1995
+name: RDMADescr15
+class: top, center, theWhiteBackground
+background-image: url("/images/Soft RDMA Drivers.png")
+---
+name: RDMADescr16
+class: top, center, theWhiteBackground
+background-image: url("/images/Soft RoCE.png")
+---
+name: RDMADescr17
+class: top, center, theWhiteBackground
+background-image: url("/images/Soft RoCE.png")

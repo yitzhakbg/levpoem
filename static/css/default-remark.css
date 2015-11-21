@@ -33,6 +33,9 @@ h3 {
 .large {
   font-size: 2em;
 }
+.medium {
+  font-size: 1.2em;
+}
 .theYellowBackground {background-color:#D9DDA9;color: #2e343b;}
 .theGreyBackground {background-color:#2e343b;color: #D9DDA9;}
 .theBlackBackground {background-color:#000000;color: #FFFFFF;}
@@ -60,13 +63,13 @@ code {
 .pull-right ~ p {
   clear: both;
 }
-/*#slideshow .slide .content code {
+#slideshow .slide .content code {
   font-size: 0.8em;
 }
 #slideshow .slide .content pre code {
   font-size: 0.9em;
   padding: 15px;
-}*/
+}
 .inverse {
   background: #272822;
   color: #777872;
