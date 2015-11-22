@@ -97,11 +97,6 @@ class: center
 # Concentric Technology Bubbles <br/> Each wave envelopes its predecessors
 ![:scale 85%](/images/bubbles_in_bubbles.jpg)
 ---
-name: Wait1
-class: center
-# Concentric Technology Bubbles <br/> Each wave envelopes its predecessors
-![:scale 85%](/images/bubbles_in_bubbles.jpg)
----
 background-image: url(/images/ViewItFromOutside.png)
 name: ViewFromOutside
 class: center
@@ -170,6 +165,10 @@ count: false
 ## 3. Replace compute nodes with mobile devices
 .center[![:scale 98%](/images/hpc-diagram_mobile.png)]
 ---
+name: 4thGen
+class: top, center, theWhiteBackground
+background-image: url("/images/4thGen.png")
+---
 name:LetItSinkIn
 # It's an autonomous computing platform
 # .left[ ![:scale 40%](/images/waitamoment.png) and let it sink in]
@@ -182,7 +181,7 @@ name: entirelynew1
 ]
 .right-column.medium[
 Order of magnitude more clusters than devices
-- Multicore mobile devices
+- Multicore mobile devices, powerhouses
 
 - Much higher device density
 
@@ -205,6 +204,8 @@ Intra-cluster network traffic
 - Close proximity means speed
 
 - No burden on existing infrastructure
+
+- Wireless routing opens numerous possibilities
 ]
 ---
 count: false
@@ -394,3 +395,11 @@ background-image: url("/images/Soft RoCE.png")
 name: RDMADescr17
 class: top, center, theWhiteBackground
 background-image: url("/images/Soft RoCE.png")
+-
+name: RDMADescr18
+class: top, center, theWhiteBackground
+background-image: url("/images/Virtualized_RDMA.png")
+---
+name: RDMADescr19
+class: top, center, theWhiteBackground
+background-image: url("/images/RDMA_GPU.png")
