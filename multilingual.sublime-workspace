@@ -1,0 +1,1156 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"image",
+				"images"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"cent",
+				"center"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"sli",
+				"slidesfile"
+			],
+			[
+				"con",
+				"contents"
+			],
+			[
+				"sl",
+				"slides"
+			],
+			[
+				"w",
+				"was"
+			],
+			[
+				"ba",
+				"bannerinline"
+			],
+			[
+				"Inte",
+				"Internet’s"
+			],
+			[
+				"v",
+				"var"
+			],
+			[
+				"yit",
+				"yitzhakbg"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"f",
+				"false"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"la",
+				"layout"
+			],
+			[
+				"mo",
+				"monthly_archive"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/layouts/partials/header.html",
+			"settings":
+			{
+				"buffer_size": 2149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/static/slides/wrdmaslides.md",
+			"settings":
+			{
+				"buffer_size": 11890,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "gitch",
+		"selected_items":
+		[
+			[
+				"gitch",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git h",
+				"Git: Help"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Git: Status"
+			],
+			[
+				"gitpu",
+				"Git: Push"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"gitp",
+				"Git: Push"
+			],
+			[
+				"marke",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"chea",
+				"Cheat Sheet: Github Flavored Markdown"
+			],
+			[
+				"cheat",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"gipu",
+				"Git: Push"
+			],
+			[
+				"gitsho",
+				"Git: Show"
+			],
+			[
+				"gius",
+				"Git: Push"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"vint",
+				"Vintageous: Toggle Vim Ctrl Keys"
+			],
+			[
+				"vi",
+				"Vintageous: Reset"
+			],
+			[
+				"ssymar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"vintag",
+				"Build With: Vintageous"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"vinta",
+				"Vintageous: Exit from command mode"
+			],
+			[
+				"vin",
+				"Vintageous: Toggle"
+			],
+			[
+				"vie",
+				"View: Toggle Minimap"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"syntadoc",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"pkag",
+				"Package Control: Install Package"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"ssxbas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sxsh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"ssxba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssxbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"subgi",
+				"SublimeGit: Add License"
+			],
+			[
+				"ssxsh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"gitre",
+				"Git: Remote"
+			],
+			[
+				"gis",
+				"Git: Status"
+			],
+			[
+				"gire",
+				"Git: Remote"
+			],
+			[
+				"giremo",
+				"Git: Remote"
+			],
+			[
+				"girem",
+				"Git: Remote"
+			],
+			[
+				"repo",
+				"Git: Switch Repo"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"pul",
+				"Git: Pull"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"gista",
+				"Git: Status"
+			],
+			[
+				"gitdif",
+				"Git: Diff"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"sesyma",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"find",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"je",
+				"Jekyll: Open post..."
+			],
+			[
+				"gi",
+				"Git: Gitk"
+			],
+			[
+				"d",
+				"dired"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"git --version",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem",
+		"/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/layouts",
+		"/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/layouts/partials",
+		"/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/static",
+		"/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/themes"
+	],
+	"file_history":
+	[
+		"/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/layouts/partials/headend.html",
+		"/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/layouts/partials/bodyend.html",
+		"/Users/ybg/.zprofile",
+		"/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/layouts/partials/remarkheader.html",
+		"/Users/ybg/Projects/hublog/levpoem/.gitignore",
+		"/Volumes/MacBoot2/Users/ybg/Library/Application Support/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/header.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/ranprofile",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/config.toml",
+		"/Volumes/MacBoot2/Users/ybg/Downloads/McGimp-2.9 2.app/Contents/Info.plist",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/bodyend.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/slides/advanced_css_slides.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/content/slide/wrdma.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/slides/wrdma.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/header.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/slides/wrdmaslides.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/slides/advanced_css_slides.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/slides/wrdmaslides.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/advancedcss.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/content/slide/advancedcss.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/slide/header.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/slideheader",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/headend.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/headend.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/rl.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/content/tech/Outer Space.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/content/tech/Software Networking.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/ionic.min.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/default-remark.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/js/remark-latest.min.js",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/slide/single.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/default-remark.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/remarkheader.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/index.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/qeader.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/remark/src/remark.less",
+		"/Volumes/MacBoot2/Users/ybg/hublog/remark/src/remark.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/qefault-remark.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/styles.min.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/static/css/redlounge.css",
+		"/Volumes/MacBoot2/Users/ybg/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Github Flavored Markdown.cheatsheet",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/slide/advancedcss.md",
+		"/Volumes/MacBoot2/Users/ybg/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Git.cheatsheet",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/remark-template-graze.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/css/default-remark.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/remark-default.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/ddefault-remark.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/code",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/wrdmacontent.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/wrdma.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/remarkjs.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/shortcodes/youtube.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/default-remark.less",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/wrdma.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/singletop.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/slide/wrdma/index.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/slide/wrdmacontent.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/pemarkjs.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/remarkjs.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/remark-template-basic.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/README.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/css/reveal.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/slide/wrdmacontent/index.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/slide/slidecontent.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/content/slide/slides.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/bodyend.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446666220/hublog/home/ybg/levpoem/themes/redlounge/layouts/partials/headend.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446666054/hublog/home/ybg/levpoem/layouts/partials/headend.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/slide/slides/index.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/slide/index.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/googleanalytics.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/slide/headend.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/slide/footer.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/slide/slidecontent.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/content/slide/slidecontent.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/footer.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/bodyend.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/_default/single.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/content/slide/slidess.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/styles.min.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/partials/slide/bodyend.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/socialsharing.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/static/css/reveal.css",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/shortcodes/vimeo.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/shortcodes/slideshare.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/shortcodes/scribd.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/shortcodes/highlight.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/oput/Opening D2D Space.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/oput/Opening D2D Space.html",
+		"/Volumes/MacBoot2/Users/ybg/Blogs/levpoem/layouts/partials/header.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/sidebar.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/og.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/partials/meta.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/shortcodes/img.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/index.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446561941/hublog/home/ybg/levpoem/content/tech/Outer Space.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446570035/hublog/home/ybg/levpoem/themes/redlounge/layouts/_default/single.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446580354/hublog/home/ybg/levpoem/content/slides.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446562896/hublog/home/ybg/levpoem/content/tech/Software Networking.md",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/layouts/_default/single.html",
+		"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes/redlounge/layouts/index.html",
+		"/Volumes/MacBoot2/Users/ybg/Blogs/levpoem/themes/redlounge/layouts/partials/og.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446489049/hublog/home/ybg/levpoem/content/articles/Outer Space.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446402855/hublog/home/ybg/levpoem/themes/redlounge/layouts/_default/single.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446403987/hublog/home/ybg/levpoem/themes/redlounge/static/css/redlounge.css",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446402918/hublog/home/ybg/levpoem/content/articles/Outer Space.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446473346/hublog/home/ybg/levpoem/themes/redlounge/static/css/screen.css",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446399613/hublog/home/ybg/levpoem/content/articles/Outer Space.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446399995/hublog/home/ybg/levpoem/themes/redlounge/layouts/_default/single.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446398770/hublog/home/ybg/levpoem/themes/redlounge/layouts/_default/single.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446397618/hublog/home/ybg/levpoem/content/articles/Outer Space.md",
+		"/Volumes/MacBoot2/Users/ybg/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Sublime Text.cheatsheet",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446373836/hublog/home/ybg/levpoem/content/about.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446373790/hublog/home/ybg/levpoem/content/about.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446191119/hublog/home/ybg/levpoem/content/about.md",
+		"/Volumes/MacBoot2/Users/ybg/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/VIM Editor.cheatsheet",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446127770/hublog/home/ybg/levpoem/docker-compose.yml",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446151519/hublog/home/ybg/example_blog/layouts/post/li.html",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446127628/hublog/home/ybg/levpoem/docker-hugo/run.sh",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446127517/hublog/home/ybg/levpoem/docker-hugo/Dockerfile",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446127393/hublog/home/ybg/levpoem/docker-caddy/Dockerfile",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446126882/hublog/home/ybg/levpoem/Caddyfile",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446197126/hublog/home/ybg/levpoem/content/articles/Outer Space.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446153395/hublog/home/ybg/levpoem/content/articles/Outer Space.md",
+		"/var/folders/q2/hjby94hs0vdgrjk30fj01v200000gn/T/sublime-sftp-browse-1446153328/hublog/home/ybg/levpoem/content/articles/Software Networking.md",
+		"/Volumes/hublog/levpoem/themes/redlounge/layouts/index.html",
+		"/Volumes/hublog/levpoem/layouts/index.html",
+		"/Volumes/hublog/levpoem_index.html"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"/Users/ybg/Projects/hublog/levpoem",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem,-/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public/*,-/Volumes/MacBoot2/Users/ybg/hublog/levpoem/cssoverflow/*",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem,-/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public,-/Volumes/MacBoot2/Users/ybg/hublog/levpoem/cssoverflow",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem,-/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/content",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem",
+			"/Volumes/MacBoot2/Users/ybg/hublog",
+			"/Volumes/MacBoot2/Users/ybg/hublog/layouts",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem/themes",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem,-/Volumes/MacBoot2/Users/ybg/hublog/levpoem/public",
+			"/Volumes/MacBoot2/Users/ybg/hublog/levpoem",
+			"/Volumes/MacBoot2/Users/ybg/Blogs/levpoem/",
+			"/Volumes/MacBoot2/Users/ybg/Blogs/levpoem/themes/redlounge/static/css",
+			"/Volumes/MacBoot2/Users/ybg/Blogs/levpoem/static/css",
+			"/Volumes/MacBoot2/Users/ybg/Blogs/levpoem/themes/redlounge/static/css",
+			"/Volumes/MacBoot2/Users/ybg/Blogs/lpoem-blog/themes/redlounge/layouts,/Volumes/MacBoot2/Users/ybg/Blogs/lpoem-blog/themes/redlounge/static/css,/Volumes/MacBoot2/Users/ybg/Blogs/lpoem-blog",
+			"/Volumes/MacBoot2/Users/ybg/Blogs/lpoem-blog/themes/redlounge/layouts,/Volumes/MacBoot2/Users/ybg/Blogs/lpoem-blog/themes/redlounge/static/css",
+			"/Users/ybg/Blogs/lpoem-blog/themes/redlounge/layouts,/Users/ybg/Blogs/lpoem-blog/themes/redlounge/static/css",
+			"/Users/ybg/Blogs/lpoem-blog",
+			"/Users/ybg/Blogs/ybgugo-blog",
+			"/Users/ybg/Blogs/ybgugo-blog/themes/redlounge",
+			"/Users/ybg/Blogs/ybgugo-blog,-public/*,-static/node_modules/*",
+			"/Users/ybg/Blogs/ybgugo-blog/themes,-public/*,-static/node_modules/*",
+			"/Users/ybg/Blogs/ybgugo-blog,-public/*,-static/node_modules/*",
+			"/Users/ybg/Blogs/ybgugo-blog,-public/*,-static/node_modules/*,-themes/*",
+			"/Users/ybg/Blogs/ybgugo-blog,-public/*,-static/node_modules/*",
+			"/Users/ybg/Blogs/ybgugo-blog,-public/*",
+			"/Users/ybg/Blogs/ybgugo-blog,-/Users/ybg/Blogs/ybgugo-blog/public/",
+			"/Users/ybg/Blogs/ybgugo-blog,-/Users/ybg/Blogs/ybgugo-blog/articles,-/Users/ybg/Blogs/ybgugo-blog/public/",
+			"/Users/ybg/Blogs/ybgugo-blog,-/Users/ybg/Blogs/ybgugo-blog/articles,-/Users/ybg/Blogs/ybgugo-blog/public",
+			"/Users/ybg/Blogs/ybgugo-blog,-/Users/ybg/Blogs/ybgugo-blog/articles",
+			"/Users/ybg/Blogs/ybgugo-blog",
+			"/Users/ybg/Blogs/ybgugo-blog/themes/redlounge",
+			"/Users/ybg/Blogs/ybgugo-blog/themes/skeleton",
+			"/Users/ybg/Blogs/ybgugo-blog/themes/redlounge",
+			"/Users/ybg/Blogs/ybgugo-blog/themes/skeleton",
+			"/Users/ybg/Blogs/middleman-HamLibSassFound/source",
+			"/Volumes/UsersOnTank/ybg/Projects/Blogs/Middlemen/xxx",
+			"/Volumes/UsersOnTank/ybg/Projects/Blogs/Middlemen/trymid",
+			"/tank/Users/ybg/Projects/foundation/midblogfound",
+			"-/tank/Users/ybg/Projects/Blogs/levpoem-hpstr/.sass-cache,-/tank/Users/ybg/Projects/Blogs/levpoem-hpstr/.scss-cache",
+			"-/tank/Users/ybg/Projects/Blogs/levpoem-hpstr/.sass-cache",
+			"-.sass_cache",
+			"",
+			"/tank/Users/ybg/Projects/Blogs/levpoem-hpstr/_sass",
+			"",
+			"/tank/Users/ybg/Projects/Blogs/levpoem-hpstr/_sass",
+			"",
+			"/tank/Users/ybg/Projects/Blogs/levpoem-hpstr/_sass",
+			"",
+			"/tank/Users/ybg/Projects/Blogs/levpoem-hpstr/_sass",
+			"",
+			"/tank/Users/ybg/Projects/Blogs/levpoem-hpstr/_posts",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jquery",
+			".jpg",
+			"true",
+			"layout",
+			"png",
+			".png",
+			"*\\.png",
+			"traff",
+			"backg",
+			"sdnc",
+			"background-image",
+			"apple",
+			"os",
+			"version",
+			"RDMAIntro",
+			"ionicons",
+			"jqu",
+			"ionicons",
+			"jquery",
+			"nquery",
+			"ionicons",
+			"score",
+			"scorec",
+			"headend",
+			"styles",
+			"styles.min",
+			"styles.min.css",
+			"ion-social",
+			"ion",
+			"side-menu",
+			"side-menu.css",
+			"olson",
+			"default-r",
+			"header.html",
+			"remark-slide-content",
+			"redlounge.css",
+			"remark-slide-content",
+			"cloudflare",
+			"cloudfare",
+			"remark-slide-number",
+			"nbsp",
+			"networks",
+			"bodyend",
+			"slides",
+			"categ",
+			"slides",
+			"single",
+			"single.html",
+			"else",
+			"remarkjs",
+			"platf",
+			"absolute",
+			"foot",
+			"bottom",
+			".right",
+			"right",
+			"youtu",
+			"50%",
+			"section",
+			"reveal",
+			"jquery",
+			"googleapis",
+			"jquery",
+			"googleapis",
+			"subtitle",
+			"slides",
+			"wrdma",
+			"wrdmacontent",
+			".Content",
+			"menu",
+			"lightbox",
+			"loghtbox",
+			"inline",
+			"og:url",
+			"ogimage",
+			"permalink",
+			"ogimage",
+			"og",
+			"title",
+			"rinline",
+			"\n	{{ if .Params.banner }}\n	<div class=\"content-banner-image pure-u-1 pure-u-md-3-4\" style=\"{{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}\">\n		<img src=\"{{ .Params.banner }}\" class=\"pure-img\" style=\"{{ if .Params.bannerfill }}width: 100%;{{ end }}\" />\n	</div>\n  {{ else if .Params.bannerinline }}\n  <div class=\"content-banner-image pure-u-1 pure-u-md-3-4\" style=\"{{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}\">\n    <img src=\"{{ .Params.banner }}\" class=\"pure-img\" style=\"{{ if .Params.bannerfill }}width: 100%;{{ end }}\" />\n  </div>\n	{{ end }}",
+			"styles",
+			"post",
+			"font-size",
+			"side-menu",
+			"5%",
+			"post-summary",
+			"100 %",
+			"%",
+			"size",
+			"align",
+			"h2",
+			"h1",
+			"header",
+			"h2",
+			"text-align",
+			"h2",
+			"center",
+			"h2",
+			"h1",
+			"h2",
+			"text-align",
+			"h2",
+			"protected",
+			"dk",
+			"dkd",
+			"&&",
+			"1.0.2",
+			"8.35",
+			"7.9",
+			"fbrx",
+			"remot",
+			"sweeping",
+			"speeping",
+			"sweeping",
+			"features",
+			"pure-img",
+			"*",
+			"pure-img",
+			"css",
+			"pure-g",
+			"#menu",
+			"nav-",
+			".nav",
+			"pure",
+			"style",
+			"pure",
+			"quot"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}}\n",
+			"ybarg",
+			"#nav",
+			"pure-menu",
+			"pure-menu-",
+			"Yitzhak Bar Geva"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/layouts/partials/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2107,
+								2107
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 618.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Volumes/MacBoot2/Users/ybg/Projects/hublog/levpoem/static/slides/wrdmaslides.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6370,
+								6370
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 29
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 7515.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 190.0
+	},
+	"output.find_results":
+	{
+		"height": 190.0
+	},
+	"output.git":
+	{
+		"height": 168.0
+	},
+	"output.git-checkout":
+	{
+		"height": 190.0
+	},
+	"output.git-commit":
+	{
+		"height": 168.0
+	},
+	"output.git-pull":
+	{
+		"height": 168.0
+	},
+	"output.git-push":
+	{
+		"height": 168.0
+	},
+	"output.git-remote":
+	{
+		"height": 168.0
+	},
+	"output.markdown":
+	{
+		"height": 192.0
+	},
+	"output.sftp":
+	{
+		"height": 190.0
+	},
+	"pinned_build_system": "",
+	"project": "multilingual.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wrd",
+				"static/slides/wrdmaslides.md"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"def",
+				"static/css/default-remark.css"
+			],
+			[
+				"head",
+				"layouts/partials/header.html"
+			],
+			[
+				"ranp",
+				"ranprofile"
+			],
+			[
+				"tom",
+				"config.toml"
+			],
+			[
+				"con",
+				"config.toml"
+			],
+			[
+				"wrdma",
+				"content/slide/wrdma.md"
+			],
+			[
+				"wrdm",
+				"static/slides/wrdmaslides.md"
+			],
+			[
+				"bo",
+				"layouts/partials/bodyend.html"
+			],
+			[
+				"adva",
+				"static/slides/advanced_css_slides.md"
+			],
+			[
+				"advanc",
+				"public/slides/advanced_css_slides.md"
+			],
+			[
+				"adv",
+				"advancedcss.md"
+			],
+			[
+				"wr",
+				"content/slide/wrdma.md"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"co",
+				"config.toml"
+			],
+			[
+				"rl.",
+				"static/css/rl.css"
+			],
+			[
+				"conf",
+				"config.toml"
+			],
+			[
+				"header",
+				"layouts/partials/slide/header.html"
+			],
+			[
+				"redl",
+				"themes/redlounge/static/css/redlounge.css"
+			],
+			[
+				"heade",
+				"themes/redlounge/layouts/partials/header.html"
+			],
+			[
+				"defau",
+				"public/css/default-remark.css"
+			],
+			[
+				"sing",
+				"layouts/slide/single.html"
+			],
+			[
+				"remarkhe",
+				"layouts/partials/remarkheader.html"
+			],
+			[
+				"singlet",
+				"themes/redlounge/layouts/partials/singletop.html"
+			],
+			[
+				"singleto",
+				"themes/redlounge/layouts/partials/singletop.html"
+			],
+			[
+				"rema",
+				"layouts/partials/remarkheader.html"
+			],
+			[
+				"sin",
+				"layouts/slide/single.html"
+			],
+			[
+				"headen",
+				"layouts/partials/headend.html"
+			],
+			[
+				"oute",
+				"content/tech/Outer Space.md"
+			],
+			[
+				"siglto",
+				"themes/redlounge/layouts/partials/singletop.html"
+			],
+			[
+				"foo",
+				"themes/redlounge/layouts/partials/footer.html"
+			],
+			[
+				"foot",
+				"themes/redlounge/layouts/partials/footer.html"
+			],
+			[
+				"body",
+				"themes/redlounge/layouts/partials/bodyend.html"
+			],
+			[
+				"singl",
+				"themes/redlounge/layouts/_default/single.html"
+			],
+			[
+				"bodye",
+				"themes/redlounge/layouts/partials/bodyend.html"
+			],
+			[
+				"socia",
+				"themes/redlounge/layouts/partials/socialsharing.html"
+			],
+			[
+				"pre",
+				"pre-push"
+			],
+			[
+				"rl",
+				"public/css/rl.css"
+			],
+			[
+				"side",
+				"themes/redlounge/layouts/partials/sidebar.html"
+			],
+			[
+				"wer",
+				"wercker.yml"
+			],
+			[
+				"layme",
+				"layouts/partials/menu.html"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"javascripts",
+				"source/javascripts/all.js"
+			],
+			[
+				"all.j",
+				"source/javascripts/all.js"
+			],
+			[
+				"titles",
+				"_posts/reflections/2014-12-25-families-and-little-families.markdown"
+			],
+			[
+				".giti",
+				".gitignore"
+			],
+			[
+				"navig",
+				"_data/navigation.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/UsersOnTank/ybg/Projects/Blogs/Middlemen/tryfound/tryfound.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"source",
+				"source"
+			],
+			[
+				"fitvi",
+				"fitVids"
+			],
+			[
+				"fitv",
+				"fitVids"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "cluster m",
+		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

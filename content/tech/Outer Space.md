@@ -5,11 +5,12 @@ Tags = ["Protocoless", "D2D"]
 author = "YBG"
 date = "2015-11-27T16:27:35+03:00"
 menu = "main"
-title = "Internet's Outer Space"
+title = "Internet Outer Space"
 subtitle = "Expanding Bubbles"
 bannerinline = "/images/bubbles_in_bubbles.jpg"
 bannerheight = 500
 bannerfill = false
+# lang = "he"
 +++
 
 
