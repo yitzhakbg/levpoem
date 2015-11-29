@@ -1,8 +1,8 @@
 <script type="text/javascript">
-$(function() {
+$(document).ready(function() {
 var opts = { {{ if .Params.lang }}language: "{{ .Params.lang }}",{{ end }} pathPrefix: "/js/lang", skipLanguage: /^en/ };
-$("[data-localize]").localize("lang", opts)
-})
+$("[data-localize]").localize("lang", opts);
+});
 </script>
 
 {{ if .Params.slides }}

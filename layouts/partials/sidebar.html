@@ -10,7 +10,7 @@
     {{ if .Site.Params.sidebartagline }}<h2 class="brand-tagline" data-localize="site.sidebartagline">{{ .Site.Params.sidebartagline }}</h2>{{ end }}
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-item"><span class="nav-item-separator">//</span><a href="{{ .Site.BaseURL }}" data-localize="Home">Home</a></li>
+        <li class="nav-item"><span class="nav-item-separator">//</span><a data-localize="Home" href="{{ .Site.BaseURL }}">Home</a></li>
         {{ range .Site.Menus.main }}
           <li class="nav-item"><span class="nav-item-separator">//</span><a data-localize="menu.{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
