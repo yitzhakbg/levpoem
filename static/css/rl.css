@@ -29,3 +29,15 @@
   font-size: 1.2rem;
 }
 }
+
+.ltr {
+    text-align: left;
+    direction: ltr;
+    /*background-color: hsl(0, 50%, 90%);*/
+}
+
+.rtl {
+    text-align: right;
+    direction: rtl;
+    /*background-color: hsl(200, 50%, 90%);*/
+}

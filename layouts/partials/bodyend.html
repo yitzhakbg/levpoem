@@ -1,8 +1,19 @@
 <script type="text/javascript">
-$(document).ready(function() {
-var opts = { {{ if .Params.lang }}language: "{{ .Params.lang }}",{{ end }} pathPrefix: "/js/lang", skipLanguage: /^en/ };
-$("[data-localize]").localize("lang", opts);
-});
+  $(document).ready(function() {
+    var opts = {
+                  {{ if isset .Site.Params "lang" }}language: "{{ .Site.Params.lang }}",{{ end }}
+                  {{ if isset .Params "lang" }}language: "{{ .Params.lang }}",{{ end }}
+                  pathPrefix: "/js/lang", skipLanguage: /^en/
+               };
+    $("[data-localize]").localize("lang", opts);
+  });
+</script>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+      bidiweb.process_css('.pure-g > *', {rtl: 'rtl', ltr: 'ltr'});
+      bidiweb.process_css('.nav > *', {rtl: 'rtl', ltr: 'ltr'});
+      bidiweb.process_css('.posts > *', {rtl: 'rtl', ltr: 'ltr'});
+  });
 </script>
 
 {{ if .Params.slides }}

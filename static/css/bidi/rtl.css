@@ -1,0 +1,40 @@
+        @import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+        @import url(http://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+        @import url(http://fonts.googleapis.com/earlyaccess/notosanshebrew.css);
+        @import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+/*        @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+        @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css); */
+
+        h1 {
+            font-family: 'Alef Hebrew', Georgia;
+            color: #333;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 24pt;
+        }
+
+        p, .p {
+            background-color: hsl(120, 50%, 90%);
+            color: #333;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-family: 'Open Sans Hebrew', sans-serif;
+        }
+        div {
+            width: 500px;
+            margin: 20px auto;
+            border: 1px solid silver;
+            padding: 12px 20px;
+        }
+
+        .ltr {
+            text-align: left;
+            direction: ltr;
+            background-color: hsl(0, 50%, 90%);
+        }
+
+        .rtl {
+            text-align: right;
+            direction: rtl;
+            background-color: hsl(200, 50%, 90%);
+        }
