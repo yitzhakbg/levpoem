@@ -48,7 +48,7 @@ switchurl = "http://localhost:1313/en"
     URL = "/habout"
 
 [[menu.main]]
-    name = "blog"
+    name = "Tech Blog"
     URL = "/טכני"
 
 [[menu.social]]

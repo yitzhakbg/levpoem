@@ -34,7 +34,8 @@ mv $dir/{,h}index.html
 #
 rsync -av $htarg/* $targ
 # serve
-hugo server --config="confige.toml" -d $targ -t redlounge -b http://localhost:1313
 # Set default to English
 cp public/{e,}index.html
 cp public/{e,}index.xml
+rm -rf content/*
+hugo server --config="confige.toml" -d $targ -t redlounge -b http://localhost:1313
