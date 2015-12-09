@@ -3,13 +3,14 @@ title = "אודות"
 nopaging = true
 nodate = true
 nocomment = true
+lang = "he"
 +++
 
 ### יצחק בר-גבע
 
- I've been a non-conforming adventurer from my earliest days in the U.S. I tinkered with vacuum tubes and antennas back in the 1950's while the kids on the block played ball. My passion for computing began in 1966 and has never waned. I made Aliyah (literally _Going up_) to Israel at age 21 to become a combat soldier, a settler and raise an incredible family, involved in software throughout.
+הרפתקן בלתי נלאה מאז שאני מכיר את עצמי. עוד כילד בן 11, עסקתי בבניית מכשירי שידור רדיו עם שפופרות ווקום ואנטנות במרתף הבית בזמן שילדי הרחוב שיחקו בכדור. התלהבותי למחשבים התחילה בשנת 1966 ולא דעכה עד היום. עליתי ארצה בגיל 21 לשרת בצנחנים תחת רמטכ״ל לעתיד, אמנון ליפקין ז״ל ולהיות מילואימניק במלחמת יום הכיפורים. המשכתי עם אשתי הצעירה להיות בין ראשוני המתיישבים בגוש עציון התמחדש ובהקמת ישוב שבי שומרון בשנת 1978. תושב בית אל כבר שלושה עשורים ובזכות אשתי הצדקת, ראש שבט בישראל.
 
-### Contact
+ ### Contact
 
 <p>I can be contacted by email at <a href="mailto:yitzhakbargeva@gmail.com">yitzhakbargeva [at] gmail [dot] com</a>
 <h1 class="social-me">
