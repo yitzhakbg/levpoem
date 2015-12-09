@@ -6,7 +6,8 @@
     "Home" : "בית"
   },
   "site" : {
-       "sidebartagline" : "מבט מבפנים"
+       "sidebartagline" : "מבט מבפנים",
+       "sidebartitle" : "יצחק בר-גבע"
  },
 
   "menu" : {

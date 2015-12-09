@@ -1,0 +1,40 @@
+#
+# Script to generate Hebrew site, rename index.xml files and their references to hindex.xml,
+# rename top index.html to hindex.html then merge all into the English site.
+# Result is to have both English and Hebrew cooexisting in the same branch
+#
+targ=public
+htarg=hpublic
+rm -rf $targ $htarg
+# rsync -a --exclude='./content/*' * ../leve
+# rsync -a content/en/* ../leve/content
+# rsync -a --exclude='./content/*' * ../levh
+# rsync -a content/he/* ../levh/content
+#
+# Move branches out of the way for a moment
+#
+rm -rf content/*
+# Copy English for first pass make
+cp -a lang/en/* content
+hugo --config="confige.toml" -d $targ -t redlounge -b http://localhost:1313
+cp public/{,e}index.html
+cp public/{,e}index.xml
+# Now Hebrew
+rm -rf content/*
+cp -a lang/he/* content
+hugo --config="configh.toml" -d $htarg -t redlounge -b http://localhost:1313
+dir=$htarg
+find $dir -type f -name 'index.*' -exec sed -i '' s/index.xml/hindex.xml/ {} +
+for file in $(find $dir -type f -name index.xml); do
+    mv $file $(dirname "${file}")/hindex.xml
+done
+mv $dir/{,h}index.html
+#
+# Sync to English site
+#
+rsync -av $htarg/* $targ
+# serve
+hugo server --config="confige.toml" -d $targ -t redlounge -b http://localhost:1313
+# Set default to English
+cp public/{e,}index.html
+cp public/{e,}index.xml

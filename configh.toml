@@ -1,22 +1,24 @@
-title = "YBG's Blog"
+title = "הבלוג של י.ב.ג."
 name = "YBloGeva"
-contentdir = "content/en"
-publishdir = "public/en"
-# BaseURL = "http://localhost:1313"
+# contentdir = "content/he"
+# publishdir = "public/he"
+BaseURL = "http://localhost:1313/hindex.html"
 license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
-description = "An excursion into YBG's inner world"
+description = "לגלות את העולם הפנימי"
 # homepage = "http://46.101.221.201:2015"
-tags = ["", "Protocoless", "D2D", "nowall"]
-features = ["blog", "gallery"]
+tags = ["", "ללא פרוטוקול", "מכשיר למכשיר", "ללא חומה"]
+features = ["בלוג", "גלריה"]
 canonifyurls = true
+alternatelangs = true
+switchurl = "http://localhost:1313/en"
 
 
 [author]
-    name = "Yitzhak Bar Geva"
+    name = "יצחק בר-גבע"
 
 [params]
-  Author = "Yitzhakbg"
+  Author = "יצחק ב.ג."
   DateForm = "Mon, 2 Jan 2006"
   Facebook = "Your ID."
   Twitter = "Your ID."
@@ -24,23 +26,30 @@ canonifyurls = true
   ShowRelatedPost = true
   Disqus = "Your Disqus."
   SyntaxHighlightTheme = "solarized_dark.min.css"
-  sidebartitle = "YBG"
-  sidebartagline = "View from inside"
+  sidebartitle = "י.ב.ג."
+  sidebartagline = "מבט מבפנים"
   pygmentsUseClasses = true
   banner = "images/celestial-neighbors-323444.jpg"
   bannerfill = true
   totop = true
+  lang = "he"
 
 [permalinks]
   post = "/:year/:month/:day/:title/"
+  # tech = "/he/:title/"
+
+  [[menu.language]]
+    pre = "<i class='fa fa-linkedin-square'></i>"
+    URL = "https://www.linkedin.com/in/yitzhakbg"
+    identifier = "linkedin"
 
 [[menu.main]]
     name = "About"
-    URL = "/about"
+    URL = "/habout"
 
 [[menu.main]]
-    name = "Tech Blog"
-    URL = "/tech"
+    name = "blog"
+    URL = "/טכני"
 
 [[menu.social]]
     pre = "<i class='fa fa-twitter'></i>"
@@ -49,7 +58,7 @@ canonifyurls = true
 
 [[menu.social]]
     pre = "<i class='fa fa-android'></i>"
-    URL = "/about"
+    URL = "/habout"
     identifier = "ybg"
 
 [[menu.social]]
@@ -60,4 +69,3 @@ canonifyurls = true
 [[menu.footer]]
     name = "Blog"
     URL = "/article"
-

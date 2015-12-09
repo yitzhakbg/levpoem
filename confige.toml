@@ -1,7 +1,7 @@
 title = "YBG's Blog"
 name = "YBloGeva"
-contentdir = "content/he"
-publishdir = "public/he"
+# contentdir = "content/en"
+# publishdir = "public/en"
 # BaseURL = "http://localhost:1313"
 license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
@@ -30,7 +30,6 @@ canonifyurls = true
   banner = "images/celestial-neighbors-323444.jpg"
   bannerfill = true
   totop = true
-  lang = "he"
 
 [permalinks]
   post = "/:year/:month/:day/:title/"
