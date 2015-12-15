@@ -2,7 +2,7 @@ title = "הבלוג של י.ב.ג."
 name = "YBloGeva"
 # contentdir = "content/he"
 # publishdir = "public/he"
-BaseURL = "http://localhost:1313/hindex.html"
+# BaseURL = "http://localhost:1313/hindex.html"
 license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
 description = "לגלות את העולם הפנימי"
@@ -18,11 +18,14 @@ switchurl = "http://localhost:1313/en"
     name = "יצחק בר-גבע"
 
 [params]
+  HomePage = "hindex.html"
+  nextHomePage = "eindex.html"
+  nextlanguagetext = "אנגלית"
   Author = "יצחק ב.ג."
   DateForm = "Mon, 2 Jan 2006"
-  Facebook = "Your ID."
-  Twitter = "Your ID."
-  Github = "Your ID."
+  Facebook = "yitzhakbg"
+  Twitter = "yitzhakbg"
+  Github = "yitzhakbg"
   ShowRelatedPost = true
   Disqus = "Your Disqus."
   SyntaxHighlightTheme = "solarized_dark.min.css"
@@ -38,18 +41,18 @@ switchurl = "http://localhost:1313/en"
   post = "/:year/:month/:day/:title/"
   # tech = "/he/:title/"
 
-  [[menu.language]]
-    pre = "<i class='fa fa-linkedin-square'></i>"
-    URL = "https://www.linkedin.com/in/yitzhakbg"
-    identifier = "linkedin"
-
 [[menu.main]]
     name = "About"
     URL = "/habout"
 
 [[menu.main]]
     name = "Tech Blog"
-    URL = "/טכני"
+    URL = "/techni"
+
+[[menu.language]]
+  pre = "<span class='pure-img' style=\"width: 50px; height: 29px; background-image: url('/images/EnglishLangFlag_50.png'); display:block\" />"
+  URL = "eindex.html"
+  identifier = "אנגלית"
 
 [[menu.social]]
     pre = "<i class='fa fa-twitter'></i>"

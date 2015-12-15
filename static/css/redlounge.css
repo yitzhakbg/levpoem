@@ -42,7 +42,7 @@ p a {
 }
 h1 {
 	font-family: 'Libre Baskerville', serif;
-	font-weight: 700; 
+	font-weight: 700;
 }
 .center {
 	text-align: center;
@@ -353,6 +353,34 @@ a.post-category:hover {
 }
 .social-sharing a.share-button-vk:hover {
 	background: #45668e;
+}
+/* Language */
+.language-switch {
+  clear: left;
+  padding-left: 2px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.language-switch a {
+  padding: 0.4rem;
+  background: #ccc;
+  color: #fff;
+  text-align: center;
+}
+.language-switch a i {
+  width: 16px;
+}
+.language-switch a i span {
+  display: none;
+}
+.language-switch a span {
+  style="width: 40px; height: 40px; display:block;  background-image: url('/images/israeliflag_40.png');"
+}
+.language-switch a.lang-button-english:hover {
+  background: #00aced;
+}
+.language-switch a.lang-button-hebrew:hover {
+  background: #00aced;
 }
 
 /* Tags */

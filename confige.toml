@@ -1,8 +1,6 @@
 title = "YBG's Blog"
 name = "YBloGeva"
-# contentdir = "content/en"
-# publishdir = "public/en"
-# BaseURL = "http://localhost:1313"
+homepage = "http://localhost:1313/eindix.html"
 license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
 description = "An excursion into YBG's inner world"
@@ -16,11 +14,14 @@ canonifyurls = true
     name = "Yitzhak Bar Geva"
 
 [params]
+  HomePage = "eindex.html"
+  nextHomePage = "hindex.html"
+  nextlanguagetext = "Hebrew"
   Author = "Yitzhakbg"
   DateForm = "Mon, 2 Jan 2006"
-  Facebook = "Your ID."
-  Twitter = "Your ID."
-  Github = "Your ID."
+  Facebook = "yitzhakbg"
+  Twitter = "yitzhakbg"
+  Github = "yitzhakbg"
   ShowRelatedPost = true
   Disqus = "Your Disqus."
   SyntaxHighlightTheme = "solarized_dark.min.css"
@@ -33,6 +34,11 @@ canonifyurls = true
 
 [permalinks]
   post = "/:year/:month/:day/:title/"
+
+[[menu.language]]
+  pre = "<span class='pure-img' style=\"width: 40px; height: 40px; background-image: url('/images/israeliflag_40.png'); display:block\" />"
+  URL = "hindex.html"
+  identifier = "Hebrew"
 
 [[menu.main]]
     name = "About"

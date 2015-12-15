@@ -2,15 +2,26 @@
   <div class="header">
     {{ partial "sidebarheader.html" . }}
 
-	{{ if .Site.Params.sidebarphoto}}
-	  <img src="{{.Site.Params.sidebarphoto}}" class="sidebarphoto">
-	{{ end }}
+    {{ if .Site.Menus.language }}
+      {{ $Params := .Site.Params }}
+      <div class="social-buttons">
+        {{ range .Site.Menus.language }}
+          {{ if .URL }}
+            <a href="/{{ .URL }}" onClick="return popupShare(this.href);" title="{{ $Params.nextlanguagetext }}" target="_self">{{ .Pre }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+
+  	{{ if .Site.Params.sidebarphoto}}
+  	  <img src="{{.Site.Params.sidebarphoto}}" class="sidebarphoto">
+  	{{ end }}
 
     {{ if .Site.Params.sidebartitle }}<h1 class="brand-title">{{ .Site.Params.sidebartitle }}</h1>{{ end }}
     {{ if .Site.Params.sidebartagline }}<h2 class="brand-tagline" data-localize="site.sidebartagline">{{ .Site.Params.sidebartagline }}</h2>{{ end }}
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-item"><span class="nav-item-separator">//</span><a data-localize="Home" href="{{ .Site.BaseURL }}">Home</a></li>
+        <li class="nav-item"><span class="nav-item-separator">//</span><a data-localize="Home" href="{{ .Site.BaseURL }}/{{ .Site.Params.HomePage }}">Home</a></li>
         {{ range .Site.Menus.main }}
           <li class="nav-item"><span class="nav-item-separator">//</span><a data-localize="menu.{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
