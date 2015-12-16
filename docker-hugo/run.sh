@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 WATCH="${HUGO_WATCH:=false}"
 SLEEP="${HUGO_REFRESH_TIME:=-1}"
@@ -12,7 +12,7 @@ HUGO=/usr/bin/hugo
 
 while [ true ]
 do
-    find {f,h}content static | entr ./fmks
+    find {e,h}content static | entr ./fmks $HUGO_DEST $HUGO_BASEURL
     echo "Sleeping for $HUGO_REFRESH_TIME seconds..."
     sleep $SLEEP
 done
