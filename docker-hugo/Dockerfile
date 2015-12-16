@@ -9,6 +9,7 @@ RUN apk add --update wget ca-certificates bash rsync && \
   mv hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo && \
   rm -r hugo_${HUGO_VERSION}_linux_amd64 && \
   wget http://nl.alpinelinux.org/alpine/edge/testing/x86_64/entr-3.3-r0.apk && apk add --allow-untrusted entr-3.3-r0.apk && \
+  rm -fr entr-3.3-r0.apk && \
   apk del wget ca-certificates && \
   rm /var/cache/apk/*
 
