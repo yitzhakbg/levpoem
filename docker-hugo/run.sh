@@ -6,24 +6,13 @@ echo "HUGO_WATCH:" $WATCH
 echo "HUGO_REFRESH_TIME:" $HUGO_REFRESH_TIME
 echo "HUGO_THEME:" $HUGO_THEME
 echo "HUGO_BASEURL" $HUGO_BASEURL
+echo "HUGO_DEST" $HUGO_DEST
 
 HUGO=/usr/bin/hugo
 
 while [ true ]
 do
-    if [[ $HUGO_WATCH != 'false' ]]; then
-	    echo "Watching..."
-#        $HUGO server --watch=true --source="/src" --theme="$HUGO_THEME" --destination="/var/www/html" --baseUrl="$HUGO_BASEURL" || exit 1
-        $HUGO --watch=true --source="/src" --theme="$HUGO_THEME" --destination="/var/www/html" --baseUrl="$HUGO_BASEURL" || exit 1
-    else
-	    echo "Building one time..."
-        $HUGO --source="/src" --theme="$HUGO_THEME" --destination="/var/www/html" || exit 1
-#        $HUGO --source="/src" --theme="$HUGO_THEME" --destination="/var/www/html" --baseUrl="$HUGO_BASEURL" || exit 1
-    fi
-
-    if [[ $HUGO_REFRESH_TIME == -1 ]]; then
-        exit 0
-    fi
+    find {f,h}content static | entr ./fmks
     echo "Sleeping for $HUGO_REFRESH_TIME seconds..."
     sleep $SLEEP
 done

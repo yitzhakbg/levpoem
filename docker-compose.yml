@@ -7,6 +7,7 @@ hugo:
 #  name:
 #    - "levpoem"
   environment:
+    - "HUGO_DEST=/var/www/html"
     - "HUGO_BASEURL=http://levpoem.co.il/"
     - "HUGO_THEME=redlounge"
     - "HUGO_WATCH=1"
@@ -18,6 +19,4 @@ caddy:
  #   - "~/sites/levpoem:/var/www/html:ro"
   volumes_from:
     - hugo
-  ports:
-    - 80:2015
-# --name "levpoem" -P -v ~/levpoem:/src  -e HUGO_BASEURL=127.0.0.1 -e HUGO_THEME=redlounge -e HUGO_WATCH=1 -e SLEEP=5 ybarg/hugo
+  ports 
