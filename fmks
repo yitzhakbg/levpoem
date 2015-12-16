@@ -1,46 +1,61 @@
 #
+[ $# -eq 0 ] && { echo "Usage: $0 destination not given"; exit 1; }
+[ $# -eq 1 ] && { echo "Usage: $0 baseURL not given"; exit 1; }
 # Script to generate Hebrew site, rename index.xml files and their references to hindex.xml,
 # rename top index.html to hindex.html then merge all into the English site.
 # Result is to have both English and Hebrew cooexisting in the same branch
 #
-targ=public
+targ=$1
 etarg=epublic
 htarg=hpublic
+#
+# To start clean:
+# rm -rf {hh,ee}content $etarg $htarg
+# or, to make fresh on every build
+# if [ -d $targ ]; then
+#   rm -rf $targ/*
+# fi
+#
+# We don't want a content directory. hhcontent and eecontent will each become content in turn
 if [ -d content ]; then
   rm -rf content
 fi
-# rm -rf $targ/* $htarg/*
-# Move branches out of the way for a moment
+# Work with clones of the content directories to be on the safe side.
+# The following command keeps the clones up to date and creates them if they're missing
+rsync -a --delete hcontent/ hhcontent && rsync -a --delete econtent/ eecontent
 #
-# rm -rf content/*
-# Copy Hebrew for first pass make
-# cp -a lang/he/* content
-# Copy the Hebrew content to content tempororily
-cp -a hcontent content
-# Make Hebrew site in hpublic
-hugo --config="configh.toml" -d $htarg -t redlounge -b http://localhost:1313
-# Remove the Hebrew content
-rm -rf content/*
-# Change index.* in all the index files to hindex.*
+# Hebrew section
+#
+# Move the Hebrew content to content tempororily
+mv {hh,}content
+# Make Hebrew site in hpublic. Move is faster than a full copy
+hugo --config="configh.toml" -d $htarg -t redlounge -b $2
+# Move the Hebrew content back
+mv {,hh}content
+# Change the string "index.xml" appearing in all the files named index.* to "hindex.xml"
 dir=$htarg
 find $dir -type f -name 'index.*' -exec sed -i '' s/index.xml/hindex.xml/ {} +
-# Change all the index.* files to hindex.*
+# Rename all the files named index.xml hindex.*
 for file in $(find $dir -type f -name index.xml); do
     mv $file $(dirname "${file}")/hindex.xml
 done
-mv $dir/{,h}index.html
-# Now English
+mv $dir/{,h}index.html # Rename top level index.html to hindex.html
+#
+# English section
+#
 # Move the English content to content tempororily
- cp -a econtent/* content
+mv {ee,}content
 # Make English site in epublic
-hugo --config="confige.toml" -d $etarg -t redlounge -b http://localhost:1313
-# English content stays
+hugo --config="confige.toml" -d $etarg -t redlounge -b $2
+# Move the English content back
+mv {,ee}content
+# Make eindex copies of index.html and index.html
 cp epublic/{,e}index.html && cp epublic/{,e}index.xml
-if [ -d "$targ" ]; then
-  rm -rf $targ
-fi
-cp -a $etarg $targ
-# serve eindex.html should be the home page
-hugo server --config="confige.toml" -d $targ --disableLiveReload -t redlounge -b http://localhost:1313
-# Sync Hebrew
-rsync -a --exclude={/images/,/css/,/js/,/data/,/docs/,/slides/} $htarg/* $targ
+# Merge hpublic and epublic into public
+# First English
+rsync -a $etarg/ $targ
+# if [ -d "$targ" ]; then
+#   rm -rf $targ && cp -a $etarg $targ
+# fi
+# Then Hebrew (Don't need static/ twice)
+rsync -a --exclude={/images/,/css/,/js/,/data/,/docs/,/slides/} $htarg/ $targ
