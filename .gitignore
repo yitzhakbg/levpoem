@@ -1,5 +1,6 @@
 public/**
 hpublic/**
+epublic/**
 *.log
 content/**
 multilingual.sublime-workspace
