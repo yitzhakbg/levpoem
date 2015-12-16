@@ -1,0 +1,51 @@
+#
+# Script to generate Hebrew site, rename index.xml files and their references to hindex.xml,
+# rename top index.html to hindex.html then merge all into the English site.
+# Result is to have both English and Hebrew cooexisting in the same branch
+#
+targ=public
+etarg=epublic
+htarg=hpublic
+if [ -d content ]; then
+  rm -rf content
+fi
+# rm -rf $targ/* $htarg/*
+# Move branches out of the way for a moment
+#
+# rm -rf content/*
+# Copy Hebrew for first pass make
+# cp -a lang/he/* content
+# Copy the Hebrew content to content tempororily
+cp -a hcontent content
+# Make Hebrew site in hpublic
+hugo --config="configh.toml" -d $htarg -t redlounge -b http://localhost:1313
+# Remove the Hebrew content
+rm -rf content/*
+# Change index.* in all the index files to hindex.*
+dir=$htarg
+find $dir -type f -name 'index.*' -exec sed -i '' s/index.xml/hindex.xml/ {} +
+# Change all the index.* files to hindex.*
+for file in $(find $dir -type f -name index.xml); do
+    mv $file $(dirname "${file}")/hindex.xml
+done
+mv $dir/{,h}index.html
+# Now English
+# Move the English content to content tempororily
+ cp -a econtent/* content
+# Make English site in epublic
+hugo --config="confige.toml" -d $etarg -t redlounge -b http://localhost:1313
+# English content stays
+ # rm -rf content/*
+# cp -a lang/en/* content
+# hugo --config="confige.toml" -t redlounge -b http://localhost:1313
+# Change target="_blank" to target="_self" inside language href, like this:
+# <a href="http://localhost:1313/eindex.html" target="_self"><i class='fa fa-language'></i></a>
+cp epublic/{,e}index.html && cp epublic/{,e}index.xml
+if [ ! -d "$targ" ]; then
+  rm -rf $targ
+fi
+cp -a $etarg $targ
+# serve eindex.html should be home the home page
+hugo server --config="confige.toml" -d $targ --disableLiveReload -t redlounge -b http://localhost:1313
+# Sync Hebrew
+rsync -a --exclude={/images/,/css/,/js/,/data/,/docs/,/slides/} $htarg/* $targ
