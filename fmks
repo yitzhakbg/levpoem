@@ -35,17 +35,12 @@ mv $dir/{,h}index.html
 # Make English site in epublic
 hugo --config="confige.toml" -d $etarg -t redlounge -b http://localhost:1313
 # English content stays
- # rm -rf content/*
-# cp -a lang/en/* content
-# hugo --config="confige.toml" -t redlounge -b http://localhost:1313
-# Change target="_blank" to target="_self" inside language href, like this:
-# <a href="http://localhost:1313/eindex.html" target="_self"><i class='fa fa-language'></i></a>
 cp epublic/{,e}index.html && cp epublic/{,e}index.xml
-if [ ! -d "$targ" ]; then
+if [ -d "$targ" ]; then
   rm -rf $targ
 fi
 cp -a $etarg $targ
-# serve eindex.html should be home the home page
+# serve eindex.html should be the home page
 hugo server --config="confige.toml" -d $targ --disableLiveReload -t redlounge -b http://localhost:1313
 # Sync Hebrew
 rsync -a --exclude={/images/,/css/,/js/,/data/,/docs/,/slides/} $htarg/* $targ
