@@ -27,7 +27,7 @@ rsync -a --delete hcontent/ hhcontent && rsync -a --delete econtent/ eecontent
 #
 # Hebrew section
 #
-# Move the Hebrew content to content tempororily
+# Move the Hebrew content to content temporarily
 mv {hh,}content
 # Make Hebrew site in hpublic. Move is faster than a full copy
 hugo --config="configh.toml" -d $htarg -t redlounge -b $2
