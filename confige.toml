@@ -48,6 +48,10 @@ canonifyurls = true
     name = "Tech Blog"
     URL = "/tech"
 
+[[menu.main]]
+    name = "Mac stuff"
+    URL = "/mac"
+
 [[menu.social]]
     pre = "<i class='fa fa-twitter'></i>"
     URL = "http://www.twitter.com/yitzhakbg"
