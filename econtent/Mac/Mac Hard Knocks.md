@@ -3,27 +3,34 @@ Categories = ["Mac"]
 Description = "Hard learned Mac lessons"
 Tags = ["Mac", "tips"]
 author = "YBG"
-date = "2015-11-27T16:27:35+03:00"
+date = "2015-12-27T16:27:35+03:00"
 menu = "main"
-title = "How to disable Mac Quick Look"
-subtitle = "When memory usage blows up"
+title = "Wild Quick Look & recover stuck boot"
+subtitle = "When memory usage blows up and boot is stuck"
 +++
 
-### Scary Sweat
+## Emergency paddle when you're up the creek
 
-Whew! System disk kept running out of space. Found that /var/vm, where the swap files appear was filling up with loads of swap files. Culprit was Quick Look whose memory usage was spiraling out of control, gobbling up all available system memory and, obviously, forcing swapping in its wake. Apparently resulted from some corrupt cache file, but who cares? Couldn't tame the wild Quick Look. Nothing helped, including repeated reboots, so there was no recourse other than using a sledge hammer: Made a copy of /var/folders and deleted it. That's when the action started.
+### Scary
 
-### Lost control of the boot
+System disk kept running out of space. Found that /var/vm, where the swap files appear was filling up with loads of swap files. Culprit was Quick Look whose memory usage was spiraling out of control, gobbling up all available system memory and obviously, forcing swapping in its wake. /var/folders had grown to over 2.4 GB. Apparently resulted from some corrupt cache file, but who cares? Couldn't tame the wild Quick Look. Searching revealed that the phenomenon wasn't unknown. Nothing helped, including repeated reboots.
+
+No recourse other than using a sledge hammer: renamed /var/folders and rebooted. That's when the action started.
+
+### Stuck boot
 
 Boot kept getting hung in the middle and all the magic Mac boot keys where ignored. Up a well known creek. Luckily, we could ssh in. Slogging through more searches on the /var/folders issue brought about mkdir /var/folders. That was enough. Machine booted and performance became even better than before the mess.
 
-### Always smarter with hind sight
+### Always smarter with hind sight. Here are the learned lessons.
 
-Discovered [this nugget by Ferndave](http://www.ferndave.com/2012/12/31/disable-mac-quick-look/):
+1. Don't panic.
+2. [C|S]ould have restored /var/folders from Time Machine.
+3. ssh'ing into a stuck Mac is a handy thing to know.
 
-cd /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/Contents/MacOS
+As always, these things pop up afterwards. Discovered [this nugget by Ferndave](http://www.ferndave.com/2012/12/31/disable-mac-quick-look/):
 
-sudo mv quicklookd quicklookd.disabled
-sudo mv qlmanage qlmanage.disabled
+    cd /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/Contents/MacOS  
+    sudo mv quicklookd quicklookd.disabled  
+    sudo mv qlmanage qlmanage.disabled
 
 Could have saved a lot of sweat, but _better late than never_.
