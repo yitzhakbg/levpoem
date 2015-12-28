@@ -13,13 +13,13 @@ RUN apk add --update wget ca-certificates bash rsync && \
   apk del wget ca-certificates && \
   rm /var/cache/apk/*
 
-COPY ./run.sh /src/run.sh
+COPY ./run.sh /run.sh
 
 # VOLUME /src
 # VOLUME /output
 VOLUME /var/www/html
 
 WORKDIR /src
-CMD ["./run.sh"]
+CMD ["/run.sh"]
 
 EXPOSE 1313
