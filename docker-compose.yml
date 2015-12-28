@@ -3,9 +3,6 @@ hugo:
   build: "docker-hugo"
   volumes:
     - "~/levpoem:/src"
-#    - "~/sites/levpoem:/output"
-#  name:
-#    - "levpoem"
   environment:
     - "HUGO_DEST=/var/www/html"
     - "HUGO_BASEURL=http://levpoem.co.il/"
@@ -15,10 +12,7 @@ hugo:
     - "HUGO_REFRESH_TIME=60"
     - "SLEEP=15"
 caddy:
-  # image: "ybarg/caddy"
   build: "docker-caddy"
- # volumes:
- #   - "~/sites/levpoem:/var/www/html:ro"
   volumes_from:
     - "hugo"
   ports:
