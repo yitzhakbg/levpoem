@@ -5,11 +5,11 @@ Tags = ["Mac", "tips"]
 author = "YBG"
 date = "2015-12-27T16:27:35+03:00"
 menu = "main"
-title = "Wild Quick Look & recover stuck boot"
-subtitle = "When memory usage blows up and boot is stuck"
+title = "Wild Quick Look & stuck boot"
+subtitle = "Memory usage blows up and boot gets stuck"
 +++
 
-## Emergency paddle when you're up the creek
+## Emergency paddle when up the creek
 
 ### Scary
 
@@ -21,7 +21,8 @@ No recourse other than using a sledge hammer: renamed /var/folders and rebooted.
 
 Boot kept getting hung in the middle and all the magic Mac boot keys where ignored. Up a well known creek. Luckily, we could ssh in. Slogging through more searches on the /var/folders issue brought about mkdir /var/folders. That was enough. Machine booted and performance became even better than before the mess.
 
-### Always smarter with hind sight. Here are the learned lessons.
+### Smarter with hind sight  
+#### Lessons Learned
 
 1. Don't panic.
 2. [C|S]ould have restored /var/folders from Time Machine.
