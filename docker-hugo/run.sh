@@ -12,7 +12,7 @@ HUGO=/usr/bin/hugo
 
 while [ true ]
 do
-    find config*.toml {e,h}content static | entr ./fmks $HUGO_DEST $HUGO_BASEURL
+    find config{e,h}.toml {e,h}content static | entr ./fmks $HUGO_DEST $HUGO_BASEURL
     echo "Sleeping for $HUGO_REFRESH_TIME seconds..."
     sleep $SLEEP
 done

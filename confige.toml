@@ -1,10 +1,8 @@
 title = "YBG's Blog"
 name = "YBloGeva"
-homepage = "http://localhost:1313/eindix.html"
 license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
 description = "An excursion into YBG's inner world"
-# homepage = "http://46.101.221.201:2015"
 tags = ["", "Protocoless", "D2D", "nowall"]
 features = ["blog", "gallery"]
 canonifyurls = true
@@ -17,7 +15,7 @@ canonifyurls = true
   HomePage = "eindex.html"
   nextHomePage = "hindex.html"
   nextlanguagetext = "Hebrew"
-  Author = "Yitzhakbg"
+  Author = "Yitzhak Bar Geva"
   DateForm = "Mon, 2 Jan 2006"
   Facebook = "yitzhakbg"
   Twitter = "yitzhakbg"
@@ -47,10 +45,6 @@ canonifyurls = true
 [[menu.main]]
     name = "Tech Blog"
     URL = "/tech"
-
-[[menu.main]]
-    name = "Mac stuff"
-    URL = "/mac"
 
 [[menu.social]]
     pre = "<i class='fa fa-twitter'></i>"

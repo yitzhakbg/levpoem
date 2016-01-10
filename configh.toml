@@ -6,12 +6,10 @@ name = "YBloGeva"
 license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
 description = "לגלות את העולם הפנימי"
-# homepage = "http://46.101.221.201:2015"
 tags = ["", "ללא פרוטוקול", "מכשיר למכשיר", "ללא חומה"]
 features = ["בלוג", "גלריה"]
 canonifyurls = true
 alternatelangs = true
-switchurl = "http://localhost:1313/en"
 
 
 [author]

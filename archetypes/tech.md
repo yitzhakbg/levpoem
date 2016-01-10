@@ -1,7 +1,7 @@
 +++
 Description = ""
-Tags = ["networking"]
-Categories = ["Networking"]
+Tags = ["networking","Mac","tips"]
+Categories = ["Networking","Mac"]
 menu = "main"
 author = "YBG"
 +++
