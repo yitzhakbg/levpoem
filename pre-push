@@ -2,15 +2,16 @@
 #
 # See examples at: http://blog.ittybittyapps.com/blog/2013/09/03/git-pre-push/
 #
+# git remote add levpoemondo ssh://46.101.221.201/home/ybg/levpoem/.git
 set -x
-CMD="git push --no-verify onlp" # onlp here is the remote branch name
+CMD="git push --no-verify levpoemondo" # levpoemondo here is the remote branch name
 master_branch='master'
 
 # Check if we actually have commits to push
 commits=`git log @{u}..`
 if [ -z "$commits" ]; then
     echo nothing to push
-    # exit 0
+    exit 0
 fi
 
 current_branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
