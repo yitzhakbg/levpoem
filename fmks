@@ -6,6 +6,7 @@
 # rename top index.html to hindex.html then merge all into the English site.
 # Result is to have both English and Hebrew cooexisting in the same branch
 #
+# echo "Starting fmks" # for debugging
 targ=$1
 etarg=epublic
 htarg=hpublic
