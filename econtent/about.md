@@ -7,7 +7,10 @@ nocomment = true
 
 ### Yitzhak Bar Geva
 
- I've been a non-conforming adventurer from my earliest days in the U.S. I tinkered with vacuum tubes and antennas back in the 1950's while the kids on the block played ball. My passion for computing began in 1966 and has never waned. I made Aliyah (literally _Going up_) to Israel at age 21 to become a combat soldier, a settler and raise an incredible family, involved in software throughout.
+ About pages are no place for introverts like myself. Professional qualifications on [LinkedIn](https://www.linkedin.com/in/yitzhakbg).
+
+
+ I've been a non-conforming adventurer from my earliest days in the U.S., tinkering with vacuum tubes and antennas back in the 1950's while the kids on the block played ball. My passion for computing began in 1966 and has never waned. I made Aliyah (literally _Going up_) to Israel at age 21 to become a combat soldier, a settler and raise an incredible family, enamored with software throughout.
 
 ### Contact
 
