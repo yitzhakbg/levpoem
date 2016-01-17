@@ -15,9 +15,10 @@ HUGO=/usr/bin/hugo
 # the same file inside the running Docker container does trigger even though it is the same file. This means that docker-
 # compose has to be restarted manually on the Mac. This isn't a problem on Linux since Docker doesn't run in a VM.
 
-while [ true ] do
+while [ true ]
+do
 #
-    find about.md config{e,h}.toml {e,h}content static | entr ./fmks $HUGO_DEST $HUGO_BASEURL
+    find config{e,h}.toml {e,h}content static | entr ./fmks $HUGO_DEST $HUGO_BASEURL
     echo "Sleeping for $HUGO_REFRESH_TIME seconds..."
     sleep $SLEEP
 done
