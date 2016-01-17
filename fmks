@@ -1,15 +1,25 @@
 #!/bin/bash
-#
+set -x
 [ $# -eq 0 ] && { echo "Usage: $0 destination not given"; exit 1; }
 [ $# -eq 1 ] && { echo "Usage: $0 baseURL not given"; exit 1; }
 # Script to generate Hebrew site, rename index.xml files and their references to hindex.xml,
 # rename top index.html to hindex.html then merge all into the English site.
 # Result is to have both English and Hebrew cooexisting in the same branch
 #
-# echo "Starting fmks" # for debugging
+
 targ=$1
-etarg=epublic
-htarg=hpublic
+l1targ=${l1}public
+l2targ=${l2}public
+l1content=${l1}content
+l2content=${l2}content
+l1index=${l1}index
+lindex=${l2}index
+l1config=config${l1}.toml
+l2config=config${l2}.toml
+
+[[ ! -d ${l1content} ]] && [[ -d ${l2content} ]] && { echo "There is only one content directory. Second one missing"; exit 1; }
+[[ -d ${l1content} ]] && [[ ! -d ${l2content} ]] && { echo "There is only one content directory. Second one missing"; exit 1; }
+
 #
 # To start clean:
 # rm -rf {hh,ee}content $etarg $htarg
@@ -24,41 +34,42 @@ if [ -d content ]; then
 fi
 # Work with clones of the content directories to be on the safe side.
 # The following command keeps the clones up to date and creates them if they're missing
-rsync -a --delete hcontent/ hhcontent && rsync -a --delete econtent/ eecontent
+rsync -a --delete ${l1content}/ ${l1}${l1content} && rsync -a --delete ${l2content}/ ${l2}${l2content}
 #
-# Hebrew section
+# Hebrew (first language) section
 #
-# Move the Hebrew content to content temporarily
-mv {hh,}content
+# Move (rename) the Hebrew content to content temporarily
+mv {${l1}${l1},}content
+# exit 1
 # Make Hebrew site in hpublic. Move is faster than a full copy
-hugo --config="configh.toml" -d $htarg -t redlounge -b $2
+hugo --config="${l1config}" -d ${l1targ} -t redlounge -b $2
 # Move the Hebrew content back
-mv {,hh}content
+mv {,${l1}${l1}}content
 # Change the string "index.xml" appearing in all the files named index.* to "hindex.xml"
-dir=$htarg
-find $dir -type f -name 'index.*' -exec sed -i 's/index.xml/hindex.xml/' {} +
-# find $dir -type f -name 'index.*' -print0 | xargs -0 sed -i 's/index.xml/hindex.xml/'
+dir=${l1targ}
+echo "dir is $dir"
+find $dir -type f -name 'index.*' -exec sed -i "s/index.xml/${l1index}.xml/" {} +
 # Rename all the files named index.xml hindex.*
 for file in $(find $dir -type f -name index.xml); do
-    mv $file $(dirname "${file}")/hindex.xml
+    mv $file $(dirname "${file}")/${l1index}.xml
 done
-mv $dir/{,h}index.html # Rename top level index.html to hindex.html
+mv $dir/{,${l1}}index.html # Rename top level index.html to hindex.html
 #
 # English section
 #
 # Move the English content to content tempororily
-mv {ee,}content
+mv {${l2}${l2},}content
 # Make English site in epublic
-hugo --config="confige.toml" -d $etarg -t redlounge -b $2
+hugo --config="${l2config}" -d ${l2targ} -t redlounge -b $2
 # Move the English content back
-mv {,ee}content
+mv {,${l2}${l2}}content
 # Make eindex copies of index.html and index.html
-cp epublic/{,e}index.html && cp epublic/{,e}index.xml
+cp ${l2targ}/{,${l2}}index.html && cp ${l2targ}/{,${l2}}index.xml
 # Merge hpublic and epublic into public
 # First English
-rsync -a $etarg/ $targ
+rsync -a ${l2targ}/ $targ
 # if [ -d "$targ" ]; then
 #   rm -rf $targ && cp -a $etarg $targ
 # fi
 # Then Hebrew (Don't need static/ twice)
-rsync -a --exclude={/images/,/css/,/js/,/data/,/docs/,/slides/} $htarg/ $targ
+rsync -a --exclude={/images/,/css/,/js/,/data/,/docs/,/slides/} ${l1targ}/ $targ
