@@ -11,6 +11,8 @@ hugo:
     - "HUGO_WATCH=1"
     - "HUGO_REFRESH_TIME=60"
     - "SLEEP=15"
+    - "l1=h" # First language is Hebrew
+    - "l2=e" # Second language is English
 caddy:
   build: "docker-caddy"
   volumes_from:
