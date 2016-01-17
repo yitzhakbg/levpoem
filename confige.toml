@@ -40,7 +40,7 @@ canonifyurls = true
 
 [[menu.main]]
     name = "About"
-    URL = "/about"
+    URL = "/eabout"
 
 [[menu.main]]
     name = "Tech Blog"
@@ -53,7 +53,7 @@ canonifyurls = true
 
 [[menu.social]]
     pre = "<i class='fa fa-android'></i>"
-    URL = "/about"
+    URL = "/eabout"
     identifier = "ybg"
 
 [[menu.social]]
