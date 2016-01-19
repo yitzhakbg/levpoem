@@ -1,4 +1,0 @@
-0.0.0.0:80 {
-   root /home/ybg/levpoem/public
-#   tls SCA.crt Certificates.key
-}
