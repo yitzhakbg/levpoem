@@ -6,7 +6,7 @@
 #
 # git remote add levpoemondo ssh://46.101.221.201/home/ybg/levpoem/.git
 #
-# Make sure to perform this confip on the remote first:
+# Make sure to perform this config on the remote first:
 # git config receive.denyCurrentBranch updateInstead
 # See: http://stackoverflow.com/questions/804545/what-is-this-git-warning-message-when-pushing-changes-to-a-remote-repository/28262104#28262104
 #

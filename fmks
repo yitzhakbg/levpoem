@@ -8,8 +8,8 @@ set -x
 #
 
 targ=$1
-l1targ=${l1}public
-l2targ=${l2}public
+l1targ=/tmp/${l1}public
+l2targ=/tmp/${l2}public
 l1content=${l1}content
 l2content=${l2}content
 l1index=${l1}index
@@ -20,31 +20,15 @@ l2config=config${l2}.toml
 [[ ! -d ${l1content} ]] && [[ -d ${l2content} ]] && { echo "There is only one content directory. Second one missing"; exit 1; }
 [[ -d ${l1content} ]] && [[ ! -d ${l2content} ]] && { echo "There is only one content directory. Second one missing"; exit 1; }
 
-#
-# To start clean:
-# rm -rf {hh,ee}content $etarg $htarg
-# or, to make fresh on every build
-# if [ -d $targ ]; then
-#   rm -rf $targ/*
-# fi
-#
-# We don't want a content directory. hhcontent and eecontent will each become content in turn
+# We don't want a content directory. hcontent and econtent will each become content in turn
 if [ -d content ]; then
   rm -rf content
 fi
-# Work with clones of the content directories to be on the safe side.
-# The following command keeps the clones up to date and creates them if they're missing
-rsync -a --delete ${l1content}/ ${l1}${l1content} && rsync -a --delete ${l2content}/ ${l2}${l2content}
-#
+
 # Hebrew (first language) section
-#
-# Move (rename) the Hebrew content to content temporarily
-mv {${l1}${l1},}content
-# exit 1
-# Make Hebrew site in hpublic. Move is faster than a full copy
-hugo --config="${l1config}" -d ${l1targ} -t redlounge -b $2
-# Move the Hebrew content back
-mv {,${l1}${l1}}content
+
+hugo --config="${l1config}" -d ${l1targ} -t ${HUGO_THEME} -b $2 # Make Hebrew site in hpublic
+
 # Change the string "index.xml" appearing in all the files named index.* to "hindex.xml"
 dir=${l1targ}
 echo "dir is $dir"
@@ -54,22 +38,14 @@ for file in $(find $dir -type f -name index.xml); do
     mv $file $(dirname "${file}")/${l1index}.xml
 done
 mv $dir/{,${l1}}index.html # Rename top level index.html to hindex.html
-#
-# English section
-#
-# Move the English content to content tempororily
-mv {${l2}${l2},}content
-# Make English site in epublic
-hugo --config="${l2config}" -d ${l2targ} -t redlounge -b $2
-# Move the English content back
-mv {,${l2}${l2}}content
+
+hugo --config="${l2config}" -d ${l2targ} -t ${HUGO_THEME} -b $2 # Make English site in epublic
+
 # Make eindex copies of index.html and index.html
 cp ${l2targ}/{,${l2}}index.html && cp ${l2targ}/{,${l2}}index.xml
-# Merge hpublic and epublic into public
+# Merge hpublic and epublic into target
 # First English
 rsync -a ${l2targ}/ $targ
-# if [ -d "$targ" ]; then
-#   rm -rf $targ && cp -a $etarg $targ
-# fi
+
 # Then Hebrew (Don't need static/ twice)
 rsync -a --exclude={/images/,/css/,/js/,/data/,/docs/,/slides/} ${l1targ}/ $targ
