@@ -4,13 +4,13 @@
 #
 # See examples at: http://blog.ittybittyapps.com/blog/2013/09/03/git-pre-push/
 #
-# git remote add levpoemondo ssh://46.101.221.201/home/ybg/levpoem/.git
+# git remote add levpoemondo ssh://46.101.221.201/home/ybg/Sites/levpoem/.git
 #
 # Make sure to perform this config on the remote first:
 # git config receive.denyCurrentBranch updateInstead
 # See: http://stackoverflow.com/questions/804545/what-is-this-git-warning-message-when-pushing-changes-to-a-remote-repository/28262104#28262104
 #
-set -x
+# set -x
 CMD="git push --no-verify levpoemondo" # levpoemondo here is the remote branch name
 master_branch='master'
 
