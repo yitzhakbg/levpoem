@@ -27,7 +27,7 @@ contentdir = "econtent"
   sidebartitle = "YBG"
   sidebartagline = "View from inside"
   pygmentsUseClasses = true
-  banner = "images/celestial-neighbors-323444.jpg"
+  banner = "images/celestial-neighbors-half.jpg"
   bannerfill = true
   totop = true
 
