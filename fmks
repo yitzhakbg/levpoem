@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+# set -x
 [ $# -eq 0 ] && { echo "Usage: $0 destination not given"; exit 1; }
 [ $# -eq 1 ] && { echo "Usage: $0 baseURL not given"; exit 1; }
 # Script to generate Hebrew site, rename index.xml files and their references to hindex.xml,
