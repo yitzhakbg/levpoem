@@ -1,6 +1,5 @@
 title = "הבלוג של י.ב.ג."
 name = "YBloGeva"
-contentdir = "hcontent"
 # publishdir = "public/he"
 # BaseURL = "http://localhost:1313/hindex.html"
 license = "Creative Commons Attribution 4.0 International"
@@ -9,6 +8,9 @@ description = "לגלות את העולם הפנימי"
 tags = ["", "ללא פרוטוקול", "מכשיר למכשיר", "ללא חומה"]
 features = ["בלוג", "גלריה"]
 canonifyurls = true
+contentdir = "hcontent"
+staticdir = "../static"
+ThemesDir = "../themes"
 alternatelangs = true
 
 [author]

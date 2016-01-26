@@ -7,6 +7,8 @@ tags = ["", "Protocoless", "D2D", "nowall"]
 features = ["blog", "gallery"]
 canonifyurls = true
 contentdir = "econtent"
+staticdir = "../static"
+ThemesDir = "../themes"
 
 
 [author]
