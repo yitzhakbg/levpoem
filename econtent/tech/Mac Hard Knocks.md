@@ -11,7 +11,7 @@ subtitle = "Memory usage blows up and boot gets stuck"
 
 ## Emergency paddle when up the creek
 
-### Scary...
+### Scary....
 
 System disk kept running out of space. Found that /var/vm, where the swap files appear was filling up with loads of swap files. Culprit was Quick Look whose memory usage was spiraling out of control, gobbling up all available system memory and obviously, forcing swapping in its wake. /var/folders had grown to over 2.4 GB. Apparently resulted from some corrupt cache file, but who cares? Couldn't tame the wild Quick Look. Searching revealed that the phenomenon wasn't unknown. Nothing helped, including repeated reboots.
 
