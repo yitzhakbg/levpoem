@@ -46,6 +46,14 @@ ThemesDir = "../themes"
     URL = "/eabout"
 
 [[menu.main]]
+    name = "Coming Home"
+    URL = "/Coming-Home"
+
+[[menu.main]]
+    name = "Israel"
+    URL = "/Israel"
+
+[[menu.main]]
     name = "Tech Blog"
     URL = "/tech"
 
