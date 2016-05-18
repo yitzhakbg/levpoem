@@ -26,3 +26,7 @@ There is an unspoken axiom that the behavior of the collective, the colony, cann
 
 ## The Gaps ##
 
+### The Organ-to-ant Gap ###
+The quest for the source of intelligence controlling the colony leads down the ladder of life to the individual ants. Anatomy of the ant shows its [organs](http://antark.net/ant-life/ant-anatomy/internal-ant-anatomy/), but again, there is a gap between the functioning organs, each of which is an organic component of the ant and the ant as an organism in itself.
+
+### The Cell-to-Organ Gap ###
