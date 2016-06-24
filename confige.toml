@@ -8,7 +8,7 @@ features = ["blog", "gallery"]
 canonifyurls = true
 contentdir = "econtent"
 staticdir = "../static"
-ThemesDir = "../themes"
+themesDir = "../themes"
 
 
 [author]

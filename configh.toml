@@ -10,7 +10,7 @@ features = ["בלוג", "גלריה"]
 canonifyurls = true
 contentdir = "hcontent"
 staticdir = "../static"
-ThemesDir = "../themes"
+themesDir = "../themes"
 alternatelangs = true
 
 [author]
