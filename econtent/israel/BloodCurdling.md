@@ -70,16 +70,18 @@ From Michael Oren's [Six Days of War](https://www.amazon.com/Six-Days-War-Making
 > ...Yet these gestures did little to relieve the sense of approaching catastrophe, of the Jews’ abandonment to yet another Holocaust. *“What are you waiting for?”* Hanna Zemer, deputy editor of the daily Davar, accosted Eskhol. He retorted with a description of Israel’s international isolation, of the massive casualties it would suffer. *“Blut vet sich giessen vie vasser”*, he concluded in Yiddish: “Blood will run like water.” Rabin wrote later of the mood: *“The days dragged on with their burden of nerve-racking meetings and consultations … Time and time again, we assessed the situation, foresaw options, stationed units, formulated plans—while our political leaders remained captive to their illusory hopes that war might be averted.”* There was talk of the widespread bombing of Israeli cities, of an entire generation of soldiers being wiped out. A popular joke told of a sign hung at Lod International Airport, exhorting the last person out of the country to kindly turn off the light.
 > 
 > The apocalypse appeared to have arrived when, for the first time, fire was exchanged on the Sinai border...
-<!-- > 
+> 
 > The sole bright spot in these otherwise morbid preparations was the unprecedented outpouring of sympathy from around the Jewish world. Volunteers arrived in numbers greater than Israel could absorb—preference was given to young, skilled, Jewish bachelors—and donations exceeded all forecasts. Mass demonstrations were held in New York and London, and emergency fund drives launched globally. *“For the first time in history, European Jewry is acting as one for Israel. All moral, political, and economic support is being mobilized,”* French Jewish leader Edmund de Rothschild wrote Sapir. From Paris, Israeli ambassador Walter Eytan reported on a *“total revolution”*, with French Jews willing to give blood, house evacuated children, even sell their artworks to raise money for Israel. Contributions poured in from non-Jews as well. Particularly welcome were some 20,000 American gas masks, supplied, ironically, by Germany.
- -->> 
+> 
+
+I was one of those volunteers. The real hero was my mother of blessed memory, who encouraged her son to go onto what was a death trap at the time, while parents of young American Jews in Israel were frantically exhorting their children to return home. By the time I signed up, the war had broken out and there were no flights to the Middle East. I arrived several days after the war at age 19 minus one month for a stay of two months, a stay which indelibly changed the course of my life.
+
+Above, we wrote that the difference between extraordinary luck and a miracle is semantic. In reality, one knows the difference, as an individual and certainly as a people.
+
+[Pigeons of the Kotel](https://groups.google.com/d/msg/machalamedaleph/jafe8Kbg2PE/_iGByazlBQAJ)
 
 
-## In vivid video footage
-Pigeons of the Kotel
-
-
-  Miracles like these don't care if we believe in them or not. Or, at Ben Gurion put it so succinctly,
+Miracles like these don't care if we believe in them or not. Or, as Ben Gurion put it so succinctly,
 "In Israel, in order to be a realist you must believe in miracles.
 Interview on CBS, (5 October 1956)"
 
