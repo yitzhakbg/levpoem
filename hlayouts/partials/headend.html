@@ -1,0 +1,12 @@
+<script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
+<script src="{{ .Site.BaseURL }}/js/jquery.localize.min.js"></script>
+
+<link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/rl.css">
+{{ if .Site.Params.gaid }}
+  {{ partial "googleanalytics" }}
+{{ end }}
+
+{{ if .Params.slides }}
+  {{ partial "remarkheader" }}
+{{ end }}

@@ -1,0 +1,40 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    var opts = {
+                  {{ if isset .Site.Params "lang" }}language: "{{ .Site.Params.lang }}",{{ end }}
+                  {{ if isset .Params "lang" }}language: "{{ .Params.lang }}",{{ end }}
+                  pathPrefix: "/js/lang", skipLanguage: /^en/
+               };
+    $("[data-localize]").localize("lang", opts);
+  });
+</script>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+      bidiweb.process_css('.pure-g > *', {rtl: 'rtl', ltr: 'ltr'});
+      bidiweb.process_css('.nav > *', {rtl: 'rtl', ltr: 'ltr'});
+      bidiweb.process_css('.posts > *', {rtl: 'rtl', ltr: 'ltr'});
+  });
+</script>
+
+{{ if .Params.slides }}
+ <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+
+  {{ if .Params.slidesfile }}
+    <script>
+
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'remark',
+          highlightLines: true,
+          sourceUrl: "/slides/{{ .Params.slidesfile }}"
+        }) ;
+    </script>
+  {{ end }}
+{{ end }}
