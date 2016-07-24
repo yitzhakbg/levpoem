@@ -1,10 +1,6 @@
 public/**
 hpublic/**
-epublic/**
 *.log
-content/**
 *.sublime-workspace
 multilingual.sublime-workspace
-eecontent/**
-hhcontent/**
 themes/
