@@ -14,7 +14,7 @@ lang = "he"
 
 <p>I can be contacted by email at <a href="mailto:yitzhakbargeva@gmail.com">yitzhakbargeva [at] gmail [dot] com</a>
 <h1 class="social-me">
-  <a title="Github" href="http://github.com/yitzhakbg"><i class="ion-social-octocat"></i></a>
+  <a title="Github" href="https://github.com/yitzhakbg"><i class="ion-social-octocat"></i></a>
   <a title="Twitter" href="https://twitter.com/yitzhakbg"><i class="ion-social-twitter"></i></a>
   <a title="LinkedIn" href="https://www.linkedin.com/in/yitzhakbg"><i class="ion-social-linkedin-outline"></i></a>
 </h1></p>

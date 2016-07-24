@@ -1,7 +1,5 @@
 title = "הבלוג של י.ב.ג."
 name = "YBloGeva"
-# publishdir = "public/he"
-# BaseURL = "http://localhost:1313/hindex.html"
 license = "Creative Commons Attribution 4.0 International"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
 description = "לגלות את העולם הפנימי"
@@ -19,7 +17,7 @@ alternatelangs = true
 
 [params]
   HomePage = "hindex.html"
-  nextHomePage = "eindex.html"
+  nextHomePage = "index.html"
   nextlanguagetext = "אנגלית"
   Author = "יצחק ב.ג."
   DateForm = "Mon, 2 Jan 2006"
@@ -51,12 +49,12 @@ alternatelangs = true
 
 [[menu.language]]
   pre = "<span class='pure-img' style=\"width: 50px; height: 29px; background-image: url('/images/EnglishLangFlag_50.png'); display:block\" />"
-  URL = "eindex.html"
+  URL = "index.html"
   identifier = "אנגלית"
 
 [[menu.social]]
     pre = "<i class='fa fa-twitter'></i>"
-    URL = "http://www.twitter.com/yitzhakbg"
+    URL = "https://www.twitter.com/yitzhakbg"
     identifier = "twitter"
 
 [[menu.social]]
