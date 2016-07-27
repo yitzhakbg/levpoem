@@ -28,4 +28,4 @@ A: Each wave was based on a new, smaller, less expensive, more accessible, more 
 
 See what computing platform could be smaller, more ubiquitous, less expensive, more programmable and vastly outstrip the billions of mobile and wireless devices in the world:
 
-{{% slideshare iph0gd6fuAYFMr %}}
+{{% slideshare thWuQ5At1kuVVb %}}
